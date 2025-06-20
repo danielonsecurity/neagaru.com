@@ -1,6 +1,6 @@
 baseURL = 'https://neagaru.com/'
 languageCode = 'en-us'
-title = 'Daniel Neagaru – Security Consultant & Systems Automation Engineer'
+title = 'Daniel Neagaru'
 theme = "neagaru"
 enableRobotsTXT = true
 defaultContentLanguage = "en"
@@ -36,6 +36,12 @@ defaultContentLanguage = "en"
     identifier = "services"
     name = "Services"
     url = "/services/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
     weight = 4
 
   [[menu.main]]

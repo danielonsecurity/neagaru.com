@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Neagaru – Security Consultant &amp; Systems Automation Engineer</title>
+    <title>Daniel Neagaru – Senior Security Consultant &amp; Systems Automation Engineer on Daniel Neagaru</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Daniel Neagaru – Security Consultant &amp; Systems Automation Engineer</description>
+    <description>Recent content in Daniel Neagaru – Senior Security Consultant &amp; Systems Automation Engineer on Daniel Neagaru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/portfolio/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/</guid>
+      <description>&lt;h1 id=&#34;-projects&#34;&gt;💼 Projects&lt;/h1&gt;&#xA;&lt;h2 id=&#34;utms-universal-time-modeling-system&#34;&gt;&lt;a href=&#34;https://utms.io/&#34;&gt;UTMS (Universal Time Modeling System)&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A radically new approach to time, habit, and task modeling. Configured&#xA;with programmable LISP entities, it tracks not just tasks but context,&#xA;conditions, interruptions, and emergent patterns. Designed to augment&#xA;human agency over time. The core is written in Python, the&#xA;configuration in Hy (LISP on Python), frontend in React + vite +&#xA;TypeScript.&lt;/p&gt;&#xA;&lt;h2 id=&#34;owasp-raider&#34;&gt;&lt;a href=&#34;https://github.com/DigeeX/raider&#34;&gt;OWASP Raider&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A web authentication testing framework for exploring complex HTTP&#xA;session workflows. Built in Python, configurable with Hy (LISP on&#xA;Python).  Presented at multiple security conferences. Raider models&#xA;authentication as a programmable state machine, allowing security&#xA;researchers to script interactions across redirects, CSRF tokens, and&#xA;multi-step logins.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
