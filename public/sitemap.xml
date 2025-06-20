@@ -8,7 +8,13 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-20T17:37:23+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

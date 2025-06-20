@@ -1,0 +1,16 @@
+body {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: keeps image fixed on scroll */
+  color: white; /* ensure text contrasts */
+}
+
+main, .content {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.6); /* optional overlay for readability */
+  padding: 2rem;
+  border-radius: 0.5rem;
+}

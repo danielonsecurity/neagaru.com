@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Neagaru</title>
+    <title>Daniel Neagaru – Penetration Tester &amp; Automation Consultant on Daniel Neagaru</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Daniel Neagaru</description>
+    <description>Recent content in Daniel Neagaru – Penetration Tester &amp; Automation Consultant on Daniel Neagaru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I’m Daniel Neagaru — a senior penetration tester, systems architect, and the creator of &lt;strong&gt;UTMS&lt;/strong&gt;, a radical time modeling system.&lt;/p&gt;&#xA;&lt;p&gt;For over a decade, I’ve delivered high-impact security and automation across industries, from fintech and transport to public sector and research.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Certifications include&lt;/strong&gt;: OSCP, OSCE, OSWP, WCNA, Scrum Master (PSM-I).&lt;br&gt;&#xA;&lt;strong&gt;Fluent in&lt;/strong&gt;: Romanian, English, German, and code.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;My work bridges low-level security, high-level strategy, and the metaphysics of time.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re trying to move faster, safer, or smarter — let’s talk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h2 id=&#34;-mobile-whatsapp-and-signal-too&#34;&gt;You can reach me directly at:&lt;br&gt;&#xA;📧 &lt;strong&gt;&lt;a href=&#34;mailto:daniel@neagaru.com&#34;&gt;daniel@neagaru.com&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;🔗 &lt;a href=&#34;https://www.linkedin.com/in/neagaru&#34;&gt;LinkedIn&lt;/a&gt;&lt;br&gt;&#xA;💻 &lt;a href=&#34;https://github.com/danielonsecurity&#34;&gt;GitHub&lt;/a&gt;&lt;br&gt;&#xA;📱 &lt;a href=&#34;tel:+4917656892946&#34;&gt;Mobile&lt;/a&gt; WhatsApp and Signal too&lt;/h2&gt;&#xA;&lt;p&gt;I’m currently open to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Freelance &amp;amp; retained consulting&lt;/li&gt;&#xA;&lt;li&gt;High-trust partnerships&lt;/li&gt;&#xA;&lt;li&gt;Collaborations around time, security, and autonomy&lt;/li&gt;&#xA;&lt;li&gt;Full time jobs (maybe?)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can also book a 30-minute call or send me encrypted messages — just ask.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/</guid>
+      <description>&lt;h3 id=&#34;-offensive-security--penetration-testing&#34;&gt;🔐 Offensive Security &amp;amp; Penetration Testing&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Web &amp;amp; API pentests (manual, Burp, custom Python tooling)&lt;/li&gt;&#xA;&lt;li&gt;OAuth, SAML, OpenID Connect evaluations&lt;/li&gt;&#xA;&lt;li&gt;Full lifecycle: audit → remediation → verification&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-time-modeling--automation-consulting&#34;&gt;🧠 Time Modeling &amp;amp; Automation Consulting&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Custom time systems via &lt;strong&gt;UTMS&lt;/strong&gt;: habit analysis, task automation, forecasting&lt;/li&gt;&#xA;&lt;li&gt;Workflow analysis for founders, researchers and organizations&lt;/li&gt;&#xA;&lt;li&gt;AI integration into existing programs, shell, and life&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-devops--system-hardening&#34;&gt;⚙️ DevOps &amp;amp; System Hardening&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Threat modeling and mitigation for Linux infrastructure&lt;/li&gt;&#xA;&lt;li&gt;CI/CD security, secrets management, logging &amp;amp; monitoring&lt;/li&gt;&#xA;&lt;li&gt;Docker, ELK, Puppet/Ansible, hybrid cloud setups&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Need a custom engagement? I do weird projects. &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Get in touch&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
