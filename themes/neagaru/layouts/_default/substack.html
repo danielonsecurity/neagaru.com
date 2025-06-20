@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="mw8 center ph3">
+  <header class="mt4 w-100">
+    <h1 class="f1 athelas mt3 mb1">{{ .Title }}</h1>
+  </header>
+
+  <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray">
+    {{/* This renders the content from your blog.md file */}} {{ .Content }}
+  </div>
+
+  {{/* This is where we add the Substack feed. No "if" condition is needed
+  because this entire layout is ONLY used for the blog.md page. */}}
+  <hr />
+  {{ partial "substack.html" . }}
+</article>
+{{ end }}

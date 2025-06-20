@@ -59,10 +59,14 @@
       {{ end }}
       {{ if .Site.Params.commentoEnable }}
         {{- partials.Include "commento.html" . -}}
-      {{ end }}
+        {{ end }}
+        
       </div>
     </div>
-
+    {{ if and (eq .Kind "page") (eq .File.Path "blog.md") }}
+      {{ partial "substack.html" . }}
+    {{ end }}
+    
     <aside class="w-30-l mt6-l">
       {{- partials.Include "menu-contextual.html" . -}}
     </aside>

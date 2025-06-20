@@ -1,0 +1,34 @@
+{{ $url := "https://neagaru.substack.com/feed" }}
+{{ $feed := resources.GetRemote $url }}
+
+{{ if $feed }}
+  {{ $data := $feed.Content | unmarshal }}
+  {{ if and $data.channel $data.channel.item }}
+
+    {{ $posts := slice }}
+    {{ if reflect.IsSlice $data.channel.item }}
+      {{ $posts = $data.channel.item }}
+    {{ else }}
+      {{ $posts = slice $data.channel.item }}
+    {{ end }}
+
+    <div class="substack-feed">
+      <h2 class="f3 b">Latest from my Substack</h2>
+      {{ range first 5 $posts }}
+        <article class="substack-post pv3" style="border-bottom: 1px solid #eee;">
+          <h3 class="post-title f4 mt0 mb1">
+            <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" class="link dim">{{ .title }}</a>
+          </h3>
+          <p class="post-meta f6 gray mt0 mb2">
+            Published on {{ .pubDate | time.Format ":date_long" }}
+          </p>
+          <div class="post-description nested-copy-line-height lh-copy">
+            {{ .description | safeHTML }}
+          </div>
+          <a href="{{ .link }}" class="read-more link dim" target="_blank" rel="noopener noreferrer">Read on Substack →</a>
+        </article>
+      {{ end }}
+    </div>
+
+  {{ end }}
+{{ end }}

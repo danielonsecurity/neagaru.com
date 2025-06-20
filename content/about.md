@@ -2,6 +2,9 @@
 title: "About"
 ---
 
+{{< profilepic src="/images/daniel.png" alt="Daniel Neagaru" width="500" >}}
+
+
 I’m Daniel Neagaru — a senior penetration tester, systems architect, and the creator of **UTMS**, a radical time modeling system.
 
 For over a decade, I’ve delivered high-impact security and automation across industries, from fintech and transport to public sector and research.

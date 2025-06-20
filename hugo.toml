@@ -30,3 +30,9 @@ theme = "neagaru"
     url = "/services/"
     weight = 4
 
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+
