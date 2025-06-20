@@ -1,8 +1,16 @@
 baseURL = 'https://neagaru.com/'
 languageCode = 'en-us'
-title = 'Daniel Neagaru'
+title = 'Daniel Neagaru – Security Consultant & Systems Automation Engineer'
 theme = "neagaru"
+enableRobotsTXT = true
+defaultContentLanguage = "en"
 
+[params]
+  description = "Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider"
+  author = "Daniel Neagaru"
+
+[outputs]
+  home = ["HTML", "RSS", "SITEMAP"]
 
 [menu]
 
