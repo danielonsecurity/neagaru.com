@@ -1,0 +1,4 @@
+baseURL = 'https://neagaru.com/'
+languageCode = 'en-us'
+title = 'Daniel Neagaru'
+theme = "ananke"
