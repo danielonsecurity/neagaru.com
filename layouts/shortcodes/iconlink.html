@@ -1,3 +1,3 @@
-<a href="{{ .Get "url" }}" target="_blank" rel="noopener">
+<a href="{{ .Get "url" | safeURL }}" target="_blank" rel="noopener">
   <i class="{{ .Get "icon" }}"></i> {{ .Get "label" }}
 </a>
