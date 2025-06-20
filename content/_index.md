@@ -1,6 +1,8 @@
 ---
-title: "Daniel Neagaru – Penetration Tester & Automation Consultant"
+title: "Daniel Neagaru – Security Consultant & Systems Automation Engineer"
 featured_image: "images/banner.png"
+cta_button: true
+
 ---
 
 I help individuals and organizations **secure systems, automate workflows, and model time** with radically custom tools.

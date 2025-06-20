@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Neagaru – Penetration Tester &amp; Automation Consultant on Daniel Neagaru</title>
+    <title>Daniel Neagaru – Security Consultant &amp; Systems Automation Engineer on Daniel Neagaru</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Daniel Neagaru – Penetration Tester &amp; Automation Consultant on Daniel Neagaru</description>
+    <description>Recent content in Daniel Neagaru – Security Consultant &amp; Systems Automation Engineer on Daniel Neagaru</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +19,7 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h2 id=&#34;-mobile-whatsapp-and-signal-too&#34;&gt;You can reach me directly at:&lt;br&gt;&#xA;📧 &lt;strong&gt;&lt;a href=&#34;mailto:daniel@neagaru.com&#34;&gt;daniel@neagaru.com&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;🔗 &lt;a href=&#34;https://www.linkedin.com/in/neagaru&#34;&gt;LinkedIn&lt;/a&gt;&lt;br&gt;&#xA;💻 &lt;a href=&#34;https://github.com/danielonsecurity&#34;&gt;GitHub&lt;/a&gt;&lt;br&gt;&#xA;📱 &lt;a href=&#34;tel:+4917656892946&#34;&gt;Mobile&lt;/a&gt; WhatsApp and Signal too&lt;/h2&gt;&#xA;&lt;p&gt;I’m currently open to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Freelance &amp;amp; retained consulting&lt;/li&gt;&#xA;&lt;li&gt;High-trust partnerships&lt;/li&gt;&#xA;&lt;li&gt;Collaborations around time, security, and autonomy&lt;/li&gt;&#xA;&lt;li&gt;Full time jobs (maybe?)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can also book a 30-minute call or send me encrypted messages — just ask.&lt;/p&gt;</description>
+      <description>&lt;p&gt;You can reach me directly at:&lt;br&gt;&#xA;&lt;a href=&#34;mailto:daniel@neagaru.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;i class=&#34;fas fa-envelope&#34;&gt;&lt;/i&gt; Email&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://www.linkedin.com/in/neagaru&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;i class=&#34;fa-brands fa-linkedin&#34;&gt;&lt;/i&gt; LinkedIn&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/danielonsecurity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;i class=&#34;fa-brands fa-github&#34;&gt;&lt;/i&gt; GitHub&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;#ZgotmplZ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;i class=&#34;fa-solid fa-phone&#34;&gt;&lt;/i&gt; Phone&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://wa.me/&amp;#43;4917656892946&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;i class=&#34;fa-brands fa-whatsapp&#34;&gt;&lt;/i&gt; WhatsApp&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&#xA;&lt;a href=&#34;https://signal.me/#eu/9_amZYM9qEqY_pW5ONOk2bdIEymY5vab5iQdNKyemlsn6NrYIPVHy44k0inBrJzQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;  &lt;i class=&#34;fa-brands fa-signal-messenger&#34;&gt;&lt;/i&gt; Signal&#xA;&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I’m currently open to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Freelance &amp;amp; retained consulting&lt;/li&gt;&#xA;&lt;li&gt;High-trust partnerships&lt;/li&gt;&#xA;&lt;li&gt;Collaborations around time, security, and autonomy&lt;/li&gt;&#xA;&lt;li&gt;Full time jobs (maybe?)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can also &lt;a href=&#34;https://cal.com/neagaru&#34;&gt;book a call&lt;/a&gt; or send me encrypted messages — just ask.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Blog</title>

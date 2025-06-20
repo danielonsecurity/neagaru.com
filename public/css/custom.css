@@ -43,3 +43,13 @@ main, .content {
 .content-wrapper h3 {
   color: #f8f8f8;
 }
+
+a {
+  color: #1a8cff; /* bright blue, adjust to your palette */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006bb3;
+  text-decoration: underline;
+}
