@@ -5,9 +5,9 @@ description: "Selected highlights of my work, contributions, and public projects
 type: "page"
 ---
 
-# 💼 Projects
+## 💼 Projects
 
-## [UTMS (Universal Time Modeling System)](https://utms.io/)
+### [UTMS (Universal Time Modeling System)](https://utms.io/)
 A radically new approach to time, habit, and task modeling. Configured
 with programmable LISP entities, it tracks not just tasks but context,
 conditions, interruptions, and emergent patterns. Designed to augment
@@ -16,7 +16,7 @@ configuration in Hy (LISP on Python), frontend in React + vite +
 TypeScript.
 
 
-## [OWASP Raider](https://github.com/DigeeX/raider)
+### [OWASP Raider](https://github.com/DigeeX/raider)
 A web authentication testing framework for exploring complex HTTP
 session workflows. Built in Python, configurable with Hy (LISP on
 Python).  Presented at multiple security conferences. Raider models
@@ -25,14 +25,14 @@ researchers to script interactions across redirects, CSRF tokens, and
 multi-step logins.
 
 
-## Bug Bounties & Responsible Disclosure
+### Bug Bounties & Responsible Disclosure
 Privately disclosed critical vulnerabilities in high-profile
-applications and banking systems via the Synack Red Team and other
+applications and banking systems via the [Synack Red Team](https://www.synack.com/red-team/) and other
 responsible channels.
 
 ---
 
-# 🎤 Talks & Presentations
+## 🎤 Talks & Presentations
 
 - **Ruby Unconf (2019)** — *"Attacking own APIs to find security bugs"*  
   [Talked about API security](https://www.youtube.com/watch?v=lGDETbe0b6w) at a Ruby Unconf event, explaining how web fuzzing works.
@@ -42,12 +42,36 @@ responsible channels.
 
 ---
 
-# 🛡️ Notable CVEs
+## 📰 Media Features
+
+> Sometimes, my face was pixelated.  
+> Sometimes, my name was changed.  
+> But the work—and the impact—was real.
+
+#### **BDO Foresight 4/2024** — *"Ich gehöre zu den Guten!" – Motive eines Hackers*  
+Interviewed under a pseudonym by BDO’s editorial team, this long-form feature profiles my story, ethical hacking work, and zero-day discovery.  
+[Read full article (German)](https://www.bdo.de/de-de/insights/bdo-foresight/bdo-foresight-4-2024) or [Download PDF](/pdfs/foresight_ausgabe04_final_digital.pdf)
+
+#### **WELT / ComputerBild (2014)** — *"So leicht kommen Hacker an Ihre Urlaubsfotos"*  
+Commissioned to demonstrate photo kiosk vulnerabilities using Raspberry Pi and Teensy hardware. The piece was published with blurred images and without attribution.  
+[Welt article](https://www.welt.de/wirtschaft/webwelt/article130545951/So-leicht-kommen-Hacker-an-Ihre-Urlaubsfotos.html), [Spiegel article](https://www.spiegel.de/netzwelt/apps/cewe-fotoautomaten-sicherheitsluecken-bei-w-lan-verbindung-a-978291.html), [Computerbild press release](https://www.computerbild.de/artikel/Pressemitteilung-28-Juni-2014-10269185.html) (all in German).
+
+#### **PortSwigger (2023)** — *"Raider: A tool to test authentication in web applications"*  
+Raider featured in PortSwigger’s Daily Swig, highlighting its capability to automate stateful testing of web authentication flows.  
+[Read article](https://portswigger.net/daily-swig/raider-a-tool-to-test-authentication-in-web-applications)
+
+#### **PortSwigger (2020)** — *"Tiny Tiny RSS developers act promptly to resolve big, big security problems"*  
+Coverage of the critical vulnerabilities I discovered in Tiny Tiny RSS, leading to CVE-2020-25787–89.  
+[Read article](https://portswigger.net/daily-swig/tiny-tiny-rss-developers-act-promptly-to-resolve-big-big-security-problems)
+
+---
+
+## 🛡️ Notable CVEs
 
 - **[CVE-2020-25787](https://nvd.nist.gov/vuln/detail/CVE-2020-25787)**  
 - **[CVE-2020-25788](https://nvd.nist.gov/vuln/detail/CVE-2020-25788)**  
 - **[CVE-2020-25789](https://nvd.nist.gov/vuln/detail/CVE-2020-25789)**  
-  > Series of vulnerabilities in TinyTinyRSS allowing authentication bypass and code execution. A carefully crafted malicious feed exploiting URL whitelist bugs led to SSRF → LFI → FastCGI RCE—writing a PHP backdoor that allows arbitrary command execution on vulnerable TT‑RSS Docker setups.
+  > Series of vulnerabilities in TinyTinyRSS allowing authentication bypass and code execution. A carefully crafted malicious feed exploiting URL whitelist bugs led to SSRF → LFI → FastCGI RCE—writing a PHP backdoor that allows arbitrary command execution on vulnerable TT‑RSS Docker setups. [Read blog article](https://neagaru.substack.com/p/exploiting-tiny-tiny-rss-2020) and the [PDF report](https://neagaru.com/pdfs/TinyTinyRSS.pdf).
 
 
 
@@ -58,30 +82,27 @@ responsible channels.
 
 ---
 
-# 🛠️ Tools & Contributions
+## 🛠️ Tools & Contributions
 
 - **Internal DevSecOps Pipelines** — designed and deployed automated security checks into CI/CD flows.
-- **Wireshark Training Material** — authored original video courses and exercises for WCNA certification.
+- **[Wireshark Training Material](https://www.howtonetwork.com/courses/wireshark/wireshark-certified-network-analyst-wcna/)** — authored original video courses and exercises for WCNA certification.
 
 ---
 
-# 📜 Certifications
+## 📜 Certifications
 
-- OSCP (2017) — Offensive Security Certified Professional  
-- OSWP (2018) — Offensive Security Wireless Professional  
-- WCNA (2012) — Wireshark Certified Network Analyst  
-- CompTIA A+ (2010)  
-- Scrum Master (PSM-I)
+- OSCE — Offensive Security Certified Expert (didn't finish exam since [certification was deprecated](https://www.offsec.com/blog/retiring-ctp-intro-new-courses/))  
+- [OSCP](https://www.offsec.com/courses/pen-200/) (2017) — Offensive Security Certified Professional  
+- [OSWP](https://www.offsec.com/courses/pen-210/) (2018) — Offensive Security Wireless Professional  
+- [WCNA](https://www.wcnacertification.com/) (2012) — Wireshark Certified Network Analyst  
+- [CompTIA A+](https://partners.comptia.org/certifications/a) (2010)  
+- Scrum Master ([PSM-i](https://www.scrum.org/assessments/professional-scrum-master-i-certification))
 
 ---
 
-# 🧠 Languages & Tech
+## 🧠 Skills
 
-**Programming:** Python, Hy (LISP), Emacs Lisp, Bash, C  
-**Security Domains:** Web, Mobile, Infra, Reverse Engineering, Auth Flows  
-**DevOps:** Linux, Docker, GitOps, Monitoring  
-**Protocols:** OAuth2, OpenID Connect, SAML, LDAP  
-**Tools:** Burp Suite, Metasploit, Wireshark, Nmap, Nessus
+For an exhaustive list of tools, technologies and skills, see [my skills page](/skills)
 
 ---
 

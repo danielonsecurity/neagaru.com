@@ -1,15 +1,28 @@
 {{ define "header" }}{{ partials.Include "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
+<div class="flex-l mw9 center">
+
+  <!-- Left Sidebar TOC -->
+  <aside class="dn db-l w-30 ph3 pv4 sticky top-2 h-100 overflow-y-auto" style="max-height: 90vh;">
+    {{ if .TableOfContents }}
+      <nav class="toc lh-copy">
+        <h2 class="f5 ttu tracked">Contents</h2>
+        {{ .TableOfContents }}
+      </nav>
+    {{ end }}
+  </aside>
+
+  <!-- Main Content -->
+  <div class="w-80-l w-100 ph3">
+    <article class="cf pv5 ph3 ph4-ns">
       <header>
-        <h1 class="f1">
-          {{ .Title }}
-        </h1>
+        <h1 class="f1">{{ .Title }}</h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
         {{ .Content }}
       </div>
     </article>
   </div>
+
+</div>
 {{ end }}

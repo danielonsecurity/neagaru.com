@@ -24,7 +24,7 @@ main, .content {
   background-color: rgba(53, 126, 221, 0.18); /* ← semi-transparent black */
   padding: 2rem;
   border-radius: 12px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 3rem auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   color: #fff;
@@ -52,4 +52,64 @@ a {
 a:hover {
   color: #006bb3;
   text-decoration: underline;
+}
+
+.skill-entry {
+  display: inline-block;
+  margin: 0.25rem 0;
+}
+
+.skill-entry a {
+  font-weight: bold;
+  color: inherit;
+  text-decoration: underline dotted;
+}
+
+.skill-stars {
+  font-family: monospace;
+  margin-left: 0.25rem;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;  /* Exactly below parent */
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0.75rem;
+  min-width: 8rem;
+  z-index: 100;
+}
+
+nav ul li:hover > ul,
+nav ul li:focus-within > ul {
+  display: block;
+}
+
+nav.toc {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  margin-bottom: 2em;
+}
+nav.toc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav.toc li {
+  margin-bottom: 0.3rem;
+}
+
+nav.toc li ul {
+  padding-left: 1rem;
+  font-size: 0.95em;
+}
+
+nav.toc a {
+  text-decoration: none;
+  color: #0366d6;
 }

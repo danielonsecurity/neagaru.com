@@ -35,7 +35,7 @@ That’s why I created **UTMS**, a universal time modeling system that rethinks 
 - **Team Strategy:** Scrum Master (PSM-I)  
 - **Languages:** Fluent in Romanian, English, German — and code.
 
-I’m also the author of [OWASP Raider](https://github.com/DigeeX/raider), discoverer of multiple CVEs, and a contributor to both open-source.
+I’m also the author of [OWASP Raider](https://github.com/OWASP/raider), discoverer of multiple CVEs, and a contributor to both open-source.
 
 ---
 

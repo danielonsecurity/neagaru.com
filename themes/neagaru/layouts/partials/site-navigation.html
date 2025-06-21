@@ -12,11 +12,25 @@
       {{ if .Site.Menus.main }}
         <ul class="{{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
           {{ range .Site.Menus.main }}
-          <li class="list f5 f4-ns fw4 dib {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
-              {{ .Name }}
-            </a>
-          </li>
+            <li class="list f5 f4-ns fw4 dib {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} relative">
+              <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
+                {{ .Name }}
+                {{ if .HasChildren }}
+                  <span aria-hidden="true" class="ml1">▾</span>
+                {{ end }}
+              </a>
+              {{ if .HasChildren }}
+                <ul class="absolute bg-black-90 pa3" style="min-width: 8rem; z-index: 100;">
+                  {{ range .Children }}
+                    <li class="list f6 fw4 mb2">
+                      <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
+                        {{ .Name }}
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              {{ end }}
+            </li>
           {{ end }}
         </ul>
       {{ end }}

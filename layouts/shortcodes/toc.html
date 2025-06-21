@@ -1,0 +1,14 @@
+{{- $headers := findRE `(?m)^#{1,6}\s+(.+)$` .Page.Content -}}
+{{- if $headers }}
+<nav class="toc">
+  <ul>
+    {{- range $headers }}
+      {{- $text := . | plainify -}}
+      {{- $anchor := anchorize $text -}}
+      <li><a href="#{{ $anchor }}">{{ $text }}</a></li>
+    {{- end }}
+  </ul>
+</nav>
+{{- else }}
+<p><em>No headings found.</em></p>
+{{- end }}

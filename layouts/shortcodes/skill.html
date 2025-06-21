@@ -1,0 +1,27 @@
+{{/* 
+  Usage: 
+  {{< skill name="Python" level="5" >}}
+  {{< skill name="Burp Suite" level="5" url="https://portswigger.net/burp" >}}
+*/}}
+
+{{ $name := .Get "name" }}
+{{ $level := .Get "level" | default "0" | int }}
+{{ $url := .Get "url" }}
+
+{{ $stars := "" }}
+{{ range seq 1 5 }}
+  {{ if le . $level }}
+    {{ $stars = printf "%s%s" $stars "⭐" }}
+  {{ else }}
+    {{ $stars = printf "%s%s" $stars "☆" }}
+  {{ end }}
+{{ end }}
+
+<span class="skill-entry">
+  {{ if $url }}
+    <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $name }}</a>
+  {{ else }}
+    <span>{{ $name }}</span>
+  {{ end }}
+  — <span class="skill-stars">{{ $stars }}</span>
+</span>

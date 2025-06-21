@@ -37,7 +37,7 @@ Build secure, observable, automatable infrastructure from the ground up.
 
 - Linux hardening, CI/CD security, containerized deployments (Docker, hybrid cloud)  
 - Secrets management, logging/monitoring, ELK/Prometheus/Nagios setups  
-- Puppet, Ansible, Terraform — or custom scripting if that’s what it takes
+- Puppet, Ansible  — or custom scripting if that’s what it takes
 
 ---
 

@@ -50,7 +50,7 @@
   <meta itemprop="description" content="Selected highlights of my work, contributions, and public projects">
   <meta itemprop="datePublished" content="2025-06-20T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-06-20T00:00:00+00:00">
-  <meta itemprop="wordCount" content="388">
+  <meta itemprop="wordCount" content="549">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Portfolio">
   <meta name="twitter:description" content="Selected highlights of my work, contributions, and public projects">
@@ -101,41 +101,69 @@
       
         <ul class="pl0 mr3">
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/" title="">
-              Home
-            </a>
-          </li>
+            <li class="list f5 f4-ns fw4 dib pr3 relative">
+              <a class="hover-white white-90 no-underline" href="/" title="">
+                Home
+                
+              </a>
+              
+            </li>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/about/" title="">
-              About
-            </a>
-          </li>
+            <li class="list f5 f4-ns fw4 dib pr3 relative">
+              <a class="hover-white white-90 no-underline" href="/about/" title="">
+                About
+                
+                  <span aria-hidden="true" class="ml1">▾</span>
+                
+              </a>
+              
+                <ul class="absolute bg-black-90 pa3" style="min-width: 8rem; z-index: 100;">
+                  
+                    <li class="list f6 fw4 mb2">
+                      <a class="hover-white white-90 no-underline" href="/contact/" title="">
+                        Contact
+                      </a>
+                    </li>
+                  
+                    <li class="list f6 fw4 mb2">
+                      <a class="hover-white white-90 no-underline" href="/skills/" title="">
+                        Skills
+                      </a>
+                    </li>
+                  
+                    <li class="list f6 fw4 mb2">
+                      <a class="hover-white white-90 no-underline" href="/companies/" title="">
+                        Companies
+                      </a>
+                    </li>
+                  
+                </ul>
+              
+            </li>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/contact/" title="">
-              Contact
-            </a>
-          </li>
+            <li class="list f5 f4-ns fw4 dib pr3 relative">
+              <a class="hover-white white-90 no-underline" href="/services/" title="">
+                Services
+                
+              </a>
+              
+            </li>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/portfolio/" title="">
-              Portfolio
-            </a>
-          </li>
+            <li class="list f5 f4-ns fw4 dib pr3 relative">
+              <a class="hover-white white-90 no-underline" href="/portfolio/" title="">
+                Portfolio
+                
+              </a>
+              
+            </li>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/services/" title="">
-              Services
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/blog/" title="">
-              Blog
-            </a>
-          </li>
+            <li class="list f5 f4-ns fw4 dib pr3 relative">
+              <a class="hover-white white-90 no-underline" href="/blog/" title="">
+                Blog
+                
+              </a>
+              
+            </li>
           
         </ul>
       
@@ -152,35 +180,66 @@
     <main>
       <div class="content-wrapper">
         
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
+<div class="flex-l mw9 center">
+
+  
+  <aside class="dn db-l w-30 ph3 pv4 sticky top-2 h-100 overflow-y-auto" style="max-height: 90vh;">
+    
+      <nav class="toc lh-copy">
+        <h2 class="f5 ttu tracked">Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-projects">💼 Projects</a>
+      <ul>
+        <li><a href="#utms-universal-time-modeling-system"><a href="https://utms.io/">UTMS (Universal Time Modeling System)</a></a></li>
+        <li><a href="#owasp-raider"><a href="https://github.com/DigeeX/raider">OWASP Raider</a></a></li>
+        <li><a href="#bug-bounties--responsible-disclosure">Bug Bounties &amp; Responsible Disclosure</a></li>
+      </ul>
+    </li>
+    <li><a href="#-talks--presentations">🎤 Talks &amp; Presentations</a></li>
+    <li><a href="#-media-features">📰 Media Features</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#-notable-cves">🛡️ Notable CVEs</a></li>
+    <li><a href="#-tools--contributions">🛠️ Tools &amp; Contributions</a></li>
+    <li><a href="#-certifications">📜 Certifications</a></li>
+    <li><a href="#-skills">🧠 Skills</a></li>
+  </ul>
+</nav>
+      </nav>
+    
+  </aside>
+
+  
+  <div class="w-80-l w-100 ph3">
+    <article class="cf pv5 ph3 ph4-ns">
       <header>
-        <h1 class="f1">
-          Portfolio
-        </h1>
+        <h1 class="f1">Portfolio</h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        <h1 id="-projects">💼 Projects</h1>
-<h2 id="utms-universal-time-modeling-system"><a href="https://utms.io/">UTMS (Universal Time Modeling System)</a></h2>
+        <h2 id="-projects">💼 Projects</h2>
+<h3 id="utms-universal-time-modeling-system"><a href="https://utms.io/">UTMS (Universal Time Modeling System)</a></h3>
 <p>A radically new approach to time, habit, and task modeling. Configured
 with programmable LISP entities, it tracks not just tasks but context,
 conditions, interruptions, and emergent patterns. Designed to augment
 human agency over time. The core is written in Python, the
 configuration in Hy (LISP on Python), frontend in React + vite +
 TypeScript.</p>
-<h2 id="owasp-raider"><a href="https://github.com/DigeeX/raider">OWASP Raider</a></h2>
+<h3 id="owasp-raider"><a href="https://github.com/DigeeX/raider">OWASP Raider</a></h3>
 <p>A web authentication testing framework for exploring complex HTTP
 session workflows. Built in Python, configurable with Hy (LISP on
 Python).  Presented at multiple security conferences. Raider models
 authentication as a programmable state machine, allowing security
 researchers to script interactions across redirects, CSRF tokens, and
 multi-step logins.</p>
-<h2 id="bug-bounties--responsible-disclosure">Bug Bounties &amp; Responsible Disclosure</h2>
+<h3 id="bug-bounties--responsible-disclosure">Bug Bounties &amp; Responsible Disclosure</h3>
 <p>Privately disclosed critical vulnerabilities in high-profile
-applications and banking systems via the Synack Red Team and other
+applications and banking systems via the <a href="https://www.synack.com/red-team/">Synack Red Team</a> and other
 responsible channels.</p>
 <hr>
-<h1 id="-talks--presentations">🎤 Talks &amp; Presentations</h1>
+<h2 id="-talks--presentations">🎤 Talks &amp; Presentations</h2>
 <ul>
 <li>
 <p><strong>Ruby Unconf (2019)</strong> — <em>&ldquo;Attacking own APIs to find security bugs&rdquo;</em><br>
@@ -192,7 +251,25 @@ responsible channels.</p>
 </li>
 </ul>
 <hr>
-<h1 id="-notable-cves">🛡️ Notable CVEs</h1>
+<h2 id="-media-features">📰 Media Features</h2>
+<blockquote>
+<p>Sometimes, my face was pixelated.<br>
+Sometimes, my name was changed.<br>
+But the work—and the impact—was real.</p></blockquote>
+<h4 id="bdo-foresight-42024--"><strong>BDO Foresight 4/2024</strong> — <em>&ldquo;Ich gehöre zu den Guten!&rdquo; – Motive eines Hackers</em></h4>
+<p>Interviewed under a pseudonym by BDO’s editorial team, this long-form feature profiles my story, ethical hacking work, and zero-day discovery.<br>
+<a href="https://www.bdo.de/de-de/insights/bdo-foresight/bdo-foresight-4-2024">Read full article (German)</a> or <a href="/pdfs/foresight_ausgabe04_final_digital.pdf">Download PDF</a></p>
+<h4 id="welt--computerbild-2014--"><strong>WELT / ComputerBild (2014)</strong> — <em>&ldquo;So leicht kommen Hacker an Ihre Urlaubsfotos&rdquo;</em></h4>
+<p>Commissioned to demonstrate photo kiosk vulnerabilities using Raspberry Pi and Teensy hardware. The piece was published with blurred images and without attribution.<br>
+<a href="https://www.welt.de/wirtschaft/webwelt/article130545951/So-leicht-kommen-Hacker-an-Ihre-Urlaubsfotos.html">Welt article</a>, <a href="https://www.spiegel.de/netzwelt/apps/cewe-fotoautomaten-sicherheitsluecken-bei-w-lan-verbindung-a-978291.html">Spiegel article</a>, <a href="https://www.computerbild.de/artikel/Pressemitteilung-28-Juni-2014-10269185.html">Computerbild press release</a> (all in German).</p>
+<h4 id="portswigger-2023--"><strong>PortSwigger (2023)</strong> — <em>&ldquo;Raider: A tool to test authentication in web applications&rdquo;</em></h4>
+<p>Raider featured in PortSwigger’s Daily Swig, highlighting its capability to automate stateful testing of web authentication flows.<br>
+<a href="https://portswigger.net/daily-swig/raider-a-tool-to-test-authentication-in-web-applications">Read article</a></p>
+<h4 id="portswigger-2020--"><strong>PortSwigger (2020)</strong> — <em>&ldquo;Tiny Tiny RSS developers act promptly to resolve big, big security problems&rdquo;</em></h4>
+<p>Coverage of the critical vulnerabilities I discovered in Tiny Tiny RSS, leading to CVE-2020-25787–89.<br>
+<a href="https://portswigger.net/daily-swig/tiny-tiny-rss-developers-act-promptly-to-resolve-big-big-security-problems">Read article</a></p>
+<hr>
+<h2 id="-notable-cves">🛡️ Notable CVEs</h2>
 <ul>
 <li>
 <p><strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-25787">CVE-2020-25787</a></strong></p>
@@ -203,7 +280,7 @@ responsible channels.</p>
 <li>
 <p><strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-25789">CVE-2020-25789</a></strong></p>
 <blockquote>
-<p>Series of vulnerabilities in TinyTinyRSS allowing authentication bypass and code execution. A carefully crafted malicious feed exploiting URL whitelist bugs led to SSRF → LFI → FastCGI RCE—writing a PHP backdoor that allows arbitrary command execution on vulnerable TT‑RSS Docker setups.</p></blockquote>
+<p>Series of vulnerabilities in TinyTinyRSS allowing authentication bypass and code execution. A carefully crafted malicious feed exploiting URL whitelist bugs led to SSRF → LFI → FastCGI RCE—writing a PHP backdoor that allows arbitrary command execution on vulnerable TT‑RSS Docker setups. <a href="https://neagaru.substack.com/p/exploiting-tiny-tiny-rss-2020">Read blog article</a> and the <a href="https://neagaru.com/pdfs/TinyTinyRSS.pdf">PDF report</a>.</p></blockquote>
 </li>
 <li>
 <p><strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2019-11272">CVE-2019-11272</a></strong></p>
@@ -212,27 +289,24 @@ responsible channels.</p>
 </li>
 </ul>
 <hr>
-<h1 id="-tools--contributions">🛠️ Tools &amp; Contributions</h1>
+<h2 id="-tools--contributions">🛠️ Tools &amp; Contributions</h2>
 <ul>
 <li><strong>Internal DevSecOps Pipelines</strong> — designed and deployed automated security checks into CI/CD flows.</li>
-<li><strong>Wireshark Training Material</strong> — authored original video courses and exercises for WCNA certification.</li>
+<li><strong><a href="https://www.howtonetwork.com/courses/wireshark/wireshark-certified-network-analyst-wcna/">Wireshark Training Material</a></strong> — authored original video courses and exercises for WCNA certification.</li>
 </ul>
 <hr>
-<h1 id="-certifications">📜 Certifications</h1>
+<h2 id="-certifications">📜 Certifications</h2>
 <ul>
-<li>OSCP (2017) — Offensive Security Certified Professional</li>
-<li>OSWP (2018) — Offensive Security Wireless Professional</li>
-<li>WCNA (2012) — Wireshark Certified Network Analyst</li>
-<li>CompTIA A+ (2010)</li>
-<li>Scrum Master (PSM-I)</li>
+<li>OSCE — Offensive Security Certified Expert (didn&rsquo;t finish exam since <a href="https://www.offsec.com/blog/retiring-ctp-intro-new-courses/">certification was deprecated</a>)</li>
+<li><a href="https://www.offsec.com/courses/pen-200/">OSCP</a> (2017) — Offensive Security Certified Professional</li>
+<li><a href="https://www.offsec.com/courses/pen-210/">OSWP</a> (2018) — Offensive Security Wireless Professional</li>
+<li><a href="https://www.wcnacertification.com/">WCNA</a> (2012) — Wireshark Certified Network Analyst</li>
+<li><a href="https://partners.comptia.org/certifications/a">CompTIA A+</a> (2010)</li>
+<li>Scrum Master (<a href="https://www.scrum.org/assessments/professional-scrum-master-i-certification">PSM-i</a>)</li>
 </ul>
 <hr>
-<h1 id="-languages--tech">🧠 Languages &amp; Tech</h1>
-<p><strong>Programming:</strong> Python, Hy (LISP), Emacs Lisp, Bash, C<br>
-<strong>Security Domains:</strong> Web, Mobile, Infra, Reverse Engineering, Auth Flows<br>
-<strong>DevOps:</strong> Linux, Docker, GitOps, Monitoring<br>
-<strong>Protocols:</strong> OAuth2, OpenID Connect, SAML, LDAP<br>
-<strong>Tools:</strong> Burp Suite, Metasploit, Wireshark, Nmap, Nessus</p>
+<h2 id="-skills">🧠 Skills</h2>
+<p>For an exhaustive list of tools, technologies and skills, see <a href="/skills">my skills page</a></p>
 <hr>
 <p>Want to collaborate, hire me, or consult on a security topic?<br>
 <a href="/contact/">Contact me</a> or <a href="https://cal.com/neagaru">Schedule a meeting</a></p>
@@ -240,6 +314,8 @@ responsible channels.</p>
       </div>
     </article>
   </div>
+
+</div>
 
       </div>
     </main>
