@@ -7,20 +7,24 @@
         {{ .Site.Title }}
       {{ end }}
     </a>
-    <div class="flex-l items-center">
+
+    <button id="menu-toggle" class="db dn-l bn bg-transparent white-90 f3 pointer" aria-label="Open Menu" aria-expanded="false" aria-controls="main-menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div id="main-menu" class="dn flex-l items-center">
       {{ partials.Include "i18nlist.html" . }}
       {{ if .Site.Menus.main }}
-        <ul class="{{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+        <ul class="main-menu-ul {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
           {{ range .Site.Menus.main }}
-            <li class="list f5 f4-ns fw4 dib {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }} relative">
+            <li class="list f5 f4-ns fw4 db dib-l {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3-l" }} relative {{ if .HasChildren }}menu-item-has-children{{ end }}">
               <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
                 {{ .Name }}
                 {{ if .HasChildren }}
-                  <span aria-hidden="true" class="ml1">▾</span>
+                  <span aria-hidden="true" class="ml1 dn dib-l">▾</span>
                 {{ end }}
               </a>
               {{ if .HasChildren }}
-                <ul class="absolute bg-black-90 pa3" style="min-width: 8rem; z-index: 100;">
+                <ul class="submenu bg-black-90 pa3">
                   {{ range .Children }}
                     <li class="list f6 fw4 mb2">
                       <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">

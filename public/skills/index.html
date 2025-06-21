@@ -6,7 +6,7 @@
     
     <title>Skills | Daniel Neagaru</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Extensive overview of tools, techniques, and technologies I work with.">
+    <meta name="description" content="A comprehensive overview of the tools, technologies, and methodologies I work with.">
     <meta name="generator" content="Hugo 0.147.8">
     
     
@@ -22,7 +22,7 @@
 
 
 
-    
+    <script src="/js/nav.js" defer></script>
 
 
     
@@ -40,47 +40,25 @@
     <meta property="og:url" content="http://localhost:1313/skills/">
   <meta property="og:site_name" content="Daniel Neagaru">
   <meta property="og:title" content="Skills">
-  <meta property="og:description" content="Extensive overview of tools, techniques, and technologies I work with.">
+  <meta property="og:description" content="A comprehensive overview of the tools, technologies, and methodologies I work with.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2025-06-21T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-06-21T00:00:00+00:00">
 
   <meta itemprop="name" content="Skills">
-  <meta itemprop="description" content="Extensive overview of tools, techniques, and technologies I work with.">
+  <meta itemprop="description" content="A comprehensive overview of the tools, technologies, and methodologies I work with.">
   <meta itemprop="datePublished" content="2025-06-21T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-06-21T00:00:00+00:00">
-  <meta itemprop="wordCount" content="703">
+  <meta itemprop="wordCount" content="825">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Skills">
-  <meta name="twitter:description" content="Extensive overview of tools, techniques, and technologies I work with.">
+  <meta name="twitter:description" content="A comprehensive overview of the tools, technologies, and methodologies I work with.">
 
 	<link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 />
-
-<meta name="description" content="Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider" />
-<meta name="author" content="Daniel Neagaru" />
-
-
-<meta property="og:title" content="Skills" />
-<meta
-  property="og:description"
-  content="Extensive overview of tools, techniques, and technologies I work with."
-/>
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/skills/" />
-<meta property="og:image" content="http://localhost:1313/" />
-
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Skills" />
-<meta
-  name="twitter:description"
-  content="Extensive overview of tools, techniques, and technologies I work with."
-/>
-<meta name="twitter:image" content="http://localhost:1313/" />
 
   </head><body class="ma0 avenir bg-near-white development">
 
@@ -95,13 +73,17 @@
         Daniel Neagaru
       
     </a>
-    <div class="flex-l items-center">
+
+    <button id="menu-toggle" class="db dn-l bn bg-transparent white-90 f3 pointer" aria-label="Open Menu" aria-expanded="false" aria-controls="main-menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div id="main-menu" class="dn flex-l items-center">
       
 
       
-        <ul class="pl0 mr3">
+        <ul class="main-menu-ul pl0 mr3">
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/" title="">
                 Home
                 
@@ -109,15 +91,15 @@
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative menu-item-has-children">
               <a class="hover-white white-90 no-underline" href="/about/" title="">
                 About
                 
-                  <span aria-hidden="true" class="ml1">▾</span>
+                  <span aria-hidden="true" class="ml1 dn dib-l">▾</span>
                 
               </a>
               
-                <ul class="absolute bg-black-90 pa3" style="min-width: 8rem; z-index: 100;">
+                <ul class="submenu bg-black-90 pa3">
                   
                     <li class="list f6 fw4 mb2">
                       <a class="hover-white white-90 no-underline" href="/contact/" title="">
@@ -141,7 +123,7 @@
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/services/" title="">
                 Services
                 
@@ -149,7 +131,7 @@
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/portfolio/" title="">
                 Portfolio
                 
@@ -157,7 +139,7 @@
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/blog/" title="">
                 Blog
                 
@@ -189,38 +171,41 @@
         <h2 class="f5 ttu tracked">Contents</h2>
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#-operating-systems">🖥️ Operating Systems</a></li>
-    <li><a href="#-languages--programming">🧠 Languages &amp; Programming</a></li>
-    <li><a href="#-offensive-security">🔐 Offensive Security</a></li>
-    <li><a href="#-networking--infrastructure">📡 Networking &amp; Infrastructure</a></li>
-    <li><a href="#-networking-protocols">🌐 Networking Protocols</a>
+    <li><a href="#-cybersecurity">🔐 Cybersecurity</a>
       <ul>
-        <li><a href="#-core-networking-layer-3--4">🔹 Core Networking (Layer 3 &amp; 4)</a></li>
-        <li><a href="#-address-resolution--link-layer">🔸 Address Resolution &amp; Link Layer</a></li>
-        <li><a href="#-application-layer--web--content">🟢 Application Layer – Web &amp; Content</a></li>
-        <li><a href="#-application-layer--auth--identity">🔵 Application Layer – Auth &amp; Identity</a></li>
-        <li><a href="#-application-layer--infrastructure--messaging">🟠 Application Layer – Infrastructure &amp; Messaging</a></li>
-        <li><a href="#-security--vpn--encryption">🔴 Security / VPN / Encryption</a></li>
-        <li><a href="#-emerging--misc-protocols">🧪 Emerging / Misc Protocols</a></li>
+        <li><a href="#offensive-security--penetration-testing">Offensive Security &amp; Penetration Testing</a></li>
+        <li><a href="#reverse-engineering--malware-analysis">Reverse Engineering &amp; Malware Analysis</a></li>
+        <li><a href="#security-methodologies--frameworks">Security Methodologies &amp; Frameworks</a></li>
+        <li><a href="#osint--reconnaissance">OSINT &amp; Reconnaissance</a></li>
+        <li><a href="#physical-security--social-engineering">Physical Security &amp; Social Engineering</a></li>
       </ul>
     </li>
-    <li><a href="#-python-ecosystem">📦 Python Ecosystem</a>
+    <li><a href="#-infrastructure-devops--systems">⚙️ Infrastructure, DevOps &amp; Systems</a>
       <ul>
-        <li><a href="#-data--ml">🧮 Data &amp; ML</a></li>
-        <li><a href="#-visualization">📊 Visualization</a></li>
-        <li><a href="#-web--apis">🌐 Web &amp; APIs</a></li>
-        <li><a href="#-dev--docs">🧰 Dev &amp; Docs</a></li>
-        <li><a href="#-misc-python-libraries">⚙️ Misc Python Libraries</a></li>
+        <li><a href="#operating-systems--virtualization">Operating Systems &amp; Virtualization</a></li>
+        <li><a href="#infrastructure-services--administration">Infrastructure Services &amp; Administration</a></li>
+        <li><a href="#web-servers--services">Web Servers &amp; Services</a></li>
+        <li><a href="#high-availability--clustering">High Availability &amp; Clustering</a></li>
+        <li><a href="#cicd--automation">CI/CD &amp; Automation</a></li>
       </ul>
     </li>
-    <li><a href="#-reverse-engineering--analysis">🧬 Reverse Engineering / Analysis</a></li>
-    <li><a href="#-infrastructure--orchestration">📦 Infrastructure &amp; Orchestration</a></li>
-    <li><a href="#-databases">🗄️ Databases</a></li>
-    <li><a href="#-protocols--auth">🔄 Protocols &amp; Auth</a></li>
-    <li><a href="#-crypto--identity">🔐 Crypto &amp; Identity</a></li>
-    <li><a href="#-tools--utilities">🧰 Tools &amp; Utilities</a></li>
-    <li><a href="#-osint--recon">🔎 OSINT &amp; Recon</a></li>
-    <li><a href="#-project--communication-tools">📋 Project &amp; Communication Tools</a></li>
+    <li><a href="#-software--web-development">💻 Software &amp; Web Development</a>
+      <ul>
+        <li><a href="#programming-languages">Programming Languages</a></li>
+        <li><a href="#python-ecosystem">Python Ecosystem</a></li>
+        <li><a href="#web-frameworks-apis--data-formats">Web Frameworks, APIs &amp; Data Formats</a></li>
+        <li><a href="#databases">Databases</a></li>
+      </ul>
+    </li>
+    <li><a href="#-specialized--foundational-skills">🔬 Specialized &amp; Foundational Skills</a>
+      <ul>
+        <li><a href="#hardware-hacking--embedded-systems">Hardware Hacking &amp; Embedded Systems</a></li>
+        <li><a href="#core-tools--utilities">Core Tools &amp; Utilities</a></li>
+        <li><a href="#authentication--identity">Authentication &amp; Identity</a></li>
+        <li><a href="#networking-protocols--analysis">Networking Protocols &amp; Analysis</a></li>
+        <li><a href="#project-management--communication">Project Management &amp; Communication</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
       </nav>
@@ -234,14 +219,1527 @@
         <h1 class="f1">Skills</h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        <p>The comprehensive skills inventory presented here reflects the broad
-and overlapping nature of tools and technologies relevant to modern
-cybersecurity and software development. This detailed listing is
-intended to facilitate precise keyword searches by potential clients
-and recruiters, enabling straightforward verification of specific
-competencies rather than to imply exhaustive mastery or
-self-promotion.</p>
-<h2 id="-operating-systems">🖥️ Operating Systems</h2>
+        <p>The comprehensive skills inventory presented here reflects my broad experience across cybersecurity, software development, and self-hosted infrastructure management. This detailed listing is designed to be a practical resource for clients and recruiters, enabling precise keyword searches and straightforward verification of specific competencies. The goal is to provide a transparent look at my technical landscape, which is rooted in building and securing systems from first principles.</p>
+<h2 id="-cybersecurity">🔐 Cybersecurity</h2>
+<h3 id="offensive-security--penetration-testing">Offensive Security &amp; Penetration Testing</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://portswigger.net/burp" target="_blank" rel="noopener noreferrer">Burp Suite Professional</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.zaproxy.org/" target="_blank" rel="noopener noreferrer">OWASP ZAP</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://nmap.org/" target="_blank" rel="noopener noreferrer">Nmap</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.metasploit.com/" target="_blank" rel="noopener noreferrer">Metasploit Framework</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://sqlmap.org/" target="_blank" rel="noopener noreferrer">SQLmap</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.openwall.com/john/" target="_blank" rel="noopener noreferrer">John the Ripper</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://hashcat.net/hashcat/" target="_blank" rel="noopener noreferrer">Hashcat</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/vanhauser-thc/thc-hydra" target="_blank" rel="noopener noreferrer">Hydra</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.aircrack-ng.org/" target="_blank" rel="noopener noreferrer">Aircrack-ng</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/ParrotSec/mimikatz" target="_blank" rel="noopener noreferrer">Mimikatz</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://getgophish.com/" target="_blank" rel="noopener noreferrer">Gophish</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+</p>
+<h3 id="reverse-engineering--malware-analysis">Reverse Engineering &amp; Malware Analysis</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://rada.re/n/" target="_blank" rel="noopener noreferrer">Radare2</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://ghidra-sre.org/" target="_blank" rel="noopener noreferrer">Ghidra</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://x64dbg.com/" target="_blank" rel="noopener noreferrer">x64dbg</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/kbandla/ImmunityDebugger" target="_blank" rel="noopener noreferrer">Immunity Debugger</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://hex-rays.com/ida-pro/" target="_blank" rel="noopener noreferrer">IDA Pro</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://frida.re/" target="_blank" rel="noopener noreferrer">Frida</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Memory_forensics" target="_blank" rel="noopener noreferrer">Memory Analysis (Stack/Heap)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Address_space_layout_randomization" target="_blank" rel="noopener noreferrer">Exploit Mitigations (ASLR, DEP, etc.)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Shellcode" target="_blank" rel="noopener noreferrer">Shellcoding</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/skylot/jadx" target="_blank" rel="noopener noreferrer">JADX</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+</p>
+<h3 id="security-methodologies--frameworks">Security Methodologies &amp; Frameworks</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">OWASP Top 10</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Vulnerability_%28computer_security%29" target="_blank" rel="noopener noreferrer">Vulnerability Disclosure &amp; CVE Process</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Fuzzing" target="_blank" rel="noopener noreferrer">Fuzz Testing / Fuzzing</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Hardening_%28computing%29" target="_blank" rel="noopener noreferrer">Web Server/ OS Hardening</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://attack.mitre.org/" target="_blank" rel="noopener noreferrer">MITRE ATT&amp;CK</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Static_application_security_testing" target="_blank" rel="noopener noreferrer">SAST</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Dynamic_application_security_testing" target="_blank" rel="noopener noreferrer">DAST</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Code_review" target="_blank" rel="noopener noreferrer">Secure Code Review</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Computer_security_incident_management" target="_blank" rel="noopener noreferrer">Incident Response</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Computer_forensics" target="_blank" rel="noopener noreferrer">Digital Forensics</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Backup" target="_blank" rel="noopener noreferrer">Backup &amp; Recovery Strategy</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Cryptographic_primitive" target="_blank" rel="noopener noreferrer">Cryptographic Primitives (Conceptual)</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+</p>
+<h3 id="osint--reconnaissance">OSINT &amp; Reconnaissance</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.maltego.com/" target="_blank" rel="noopener noreferrer">Maltego</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.shodan.io/" target="_blank" rel="noopener noreferrer">Shodan</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Open-source_intelligence" target="_blank" rel="noopener noreferrer">OSINT (Open-Source Intelligence)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/smicallef/spiderfoot" target="_blank" rel="noopener noreferrer">Spiderfoot</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/laramies/theHarvester" target="_blank" rel="noopener noreferrer">theHarvester</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/lanmaster53/recon-ng" target="_blank" rel="noopener noreferrer">Recon-ng</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+</p>
+<h3 id="physical-security--social-engineering">Physical Security &amp; Social Engineering</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Social_engineering_%28security%29" target="_blank" rel="noopener noreferrer">Social Engineering</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Phishing" target="_blank" rel="noopener noreferrer">Phishing</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Lock_picking" target="_blank" rel="noopener noreferrer">Lockpicking</a>
+  
+  — <span class="skill-stars">⭐☆☆☆☆</span>
+</span>
+</p>
+<h2 id="-infrastructure-devops--systems">⚙️ Infrastructure, DevOps &amp; Systems</h2>
+<h3 id="operating-systems--virtualization">Operating Systems &amp; Virtualization</h3>
 <p>
 
 
@@ -309,43 +1807,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer">Ubuntu</a>
+    <a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian / Ubuntu</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -417,6 +1879,42 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
+    <a href="https://www.microsoft.com/en-us/windows" target="_blank" rel="noopener noreferrer">Windows 10 / 11</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
     <a href="https://www.openbsd.org/" target="_blank" rel="noopener noreferrer">OpenBSD</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
@@ -453,7 +1951,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.android.com/" target="_blank" rel="noopener noreferrer">Android (AOSP / rooted)</a>
+    <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">VirtualBox</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -489,45 +1987,9 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://lineageos.org/" target="_blank" rel="noopener noreferrer">LineageOS</a>
+    <a href="https://www.qemu.org/" target="_blank" rel="noopener noreferrer">QEMU / KVM</a>
   
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.microsoft.com/en-us/windows" target="_blank" rel="noopener noreferrer">Windows 10 / 11</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
 <br>
 
@@ -602,7 +2064,7 @@ self-promotion.</p>
   — <span class="skill-stars">⭐☆☆☆☆</span>
 </span>
 </p>
-<h2 id="-languages--programming">🧠 Languages &amp; Programming</h2>
+<h3 id="infrastructure-services--administration">Infrastructure Services &amp; Administration</h3>
 <p>
 
 
@@ -634,7 +2096,404 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>
+    <a href="https://www.haproxy.org/" target="_blank" rel="noopener noreferrer">HAProxy</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.nagios.org/" target="_blank" rel="noopener noreferrer">Nagios</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.greenbone.net/en/" target="_blank" rel="noopener noreferrer">OpenVAS</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.tenable.com/products/nessus" target="_blank" rel="noopener noreferrer">Nessus</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.elastic.co/elastic-stack/" target="_blank" rel="noopener noreferrer">ELK Stack (Elastic, Logstash, Kibana)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://netfilter.org/projects/iptables/index.html" target="_blank" rel="noopener noreferrer">iptables</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.openssl.org/" target="_blank" rel="noopener noreferrer">PKI Management (OpenSSL)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://docs.gitlab.com/subscriptions/self_managed/" target="_blank" rel="noopener noreferrer">GitLab Administration (Self-Managed)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://wiki.nftables.org/wiki-nftables/index.php/Main_Page" target="_blank" rel="noopener noreferrer">nftables</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.bacula.org/" target="_blank" rel="noopener noreferrer">Bacula</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://prometheus.io/docs/introduction/overview/" target="_blank" rel="noopener noreferrer">Prometheus</a>
+  
+  — <span class="skill-stars">⭐☆☆☆☆</span>
+</span>
+</p>
+<h3 id="web-servers--services">Web Servers &amp; Services</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://nginx.org/en/" target="_blank" rel="noopener noreferrer">NGINX</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -670,9 +2529,517 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://hylang.org/" target="_blank" rel="noopener noreferrer">Hy (LISP on Python)</a>
+    <a href="https://httpd.apache.org/" target="_blank" rel="noopener noreferrer">Apache HTTP Server</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://nextcloud.com/install/" target="_blank" rel="noopener noreferrer">Nextcloud</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://ghost.org/download/" target="_blank" rel="noopener noreferrer">Ghost</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">WordPress</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+</p>
+<h3 id="high-availability--clustering">High Availability &amp; Clustering</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/High_availability" target="_blank" rel="noopener noreferrer">High Availability &amp; Fault Tolerance Design</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.gluster.org/" target="_blank" rel="noopener noreferrer">GlusterFS</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://galeracluster.com/" target="_blank" rel="noopener noreferrer">Galera Cluster</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://docs.docker.com/engine/swarm" target="_blank" rel="noopener noreferrer">Docker Swarm</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Load_balancing_%28computing%29" target="_blank" rel="noopener noreferrer">L4 &amp; L7 Load Balancing</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+</p>
+<h3 id="cicd--automation">CI/CD &amp; Automation</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker &amp; Docker Compose</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://docs.gitlab.com/ee/ci/" target="_blank" rel="noopener noreferrer">GitLab CI</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/features/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://puppet.com/" target="_blank" rel="noopener noreferrer">Puppet</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.jenkins.io/" target="_blank" rel="noopener noreferrer">Jenkins</a>
+  
+  — <span class="skill-stars">⭐☆☆☆☆</span>
+</span>
+</p>
+<h2 id="-software--web-development">💻 Software &amp; Web Development</h2>
+<h3 id="programming-languages">Programming Languages</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
 <br>
 
@@ -742,9 +3109,45 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
+    <a href="https://hylang.org/" target="_blank" rel="noopener noreferrer">Hy (LISP on Python)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
     <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer">Emacs Lisp</a>
   
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
 <br>
 
@@ -922,42 +3325,6 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank" rel="noopener noreferrer">Assembly (x86/x64)</a>
-  
-  — <span class="skill-stars">⭐⭐☆☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
     <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>
   
   — <span class="skill-stars">⭐⭐☆☆☆</span>
@@ -1030,43 +3397,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://alpinejs.dev/" target="_blank" rel="noopener noreferrer">Alpine.js</a>
+    <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank" rel="noopener noreferrer">Assembly (x86/x64)</a>
   
   — <span class="skill-stars">⭐⭐☆☆☆</span>
 </span>
@@ -1107,7 +3438,7 @@ self-promotion.</p>
   — <span class="skill-stars">⭐☆☆☆☆</span>
 </span>
 </p>
-<h2 id="-offensive-security">🔐 Offensive Security</h2>
+<h3 id="python-ecosystem">Python Ecosystem</h3>
 <p>
 
 
@@ -1139,7 +3470,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://portswigger.net/burp" target="_blank" rel="noopener noreferrer">Burp Suite</a>
+    <a href="https://docs.python-requests.org/" target="_blank" rel="noopener noreferrer">requests</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -1175,79 +3506,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.zaproxy.org/" target="_blank" rel="noopener noreferrer">OWASP ZAP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://nmap.org/" target="_blank" rel="noopener noreferrer">Nmap</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.metasploit.com/" target="_blank" rel="noopener noreferrer">Metasploit</a>
+    <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -1283,7 +3542,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://sqlmap.org/" target="_blank" rel="noopener noreferrer">SQLmap</a>
+    <a href="https://pypi.org/project/google-generativeai/" target="_blank" rel="noopener noreferrer">google-generativeai</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -1319,7 +3578,79 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://portswigger.net/burp/documentation/desktop/extend-burp/extensions" target="_blank" rel="noopener noreferrer">Burp Suite Extensions</a>
+    <a href="https://www.python-httpx.org/" target="_blank" rel="noopener noreferrer">httpx</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://python-poetry.org/" target="_blank" rel="noopener noreferrer">Poetry</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.uvicorn.org/" target="_blank" rel="noopener noreferrer">Uvicorn</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
@@ -1355,7 +3686,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.zaproxy.org/addons" target="_blank" rel="noopener noreferrer">OWASP ZAP add-ons</a>
+    <a href="https://www.sphinx-doc.org/" target="_blank" rel="noopener noreferrer">sphinx</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
@@ -1391,7 +3722,7 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://github.com/vanhauser-thc/thc-hydra" target="_blank" rel="noopener noreferrer">Hydra</a>
+    <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
@@ -1427,1395 +3758,12 @@ self-promotion.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.openwall.com/john/" target="_blank" rel="noopener noreferrer">John the Ripper</a>
+    <a href="https://flask.palletsprojects.com/" target="_blank" rel="noopener noreferrer">Flask</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
 <br>
 
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://hashcat.net/hashcat/" target="_blank" rel="noopener noreferrer">Hashcat</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.aircrack-ng.org/" target="_blank" rel="noopener noreferrer">Aircrack-ng</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-</p>
-<h2 id="-networking--infrastructure">📡 Networking &amp; Infrastructure</h2>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.wireguard.com/" target="_blank" rel="noopener noreferrer">Wireguard</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.greenbone.net/en/" target="_blank" rel="noopener noreferrer">OpenVAS</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.tenable.com/products/nessus" target="_blank" rel="noopener noreferrer">Nessus</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.tcpdump.org/" target="_blank" rel="noopener noreferrer">tcpdump</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Netcat" target="_blank" rel="noopener noreferrer">Netcat</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://scapy.net/" target="_blank" rel="noopener noreferrer">Scapy</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-</p>
-<h2 id="-networking-protocols">🌐 Networking Protocols</h2>
-<p>This section documents my familiarity with foundational and modern
-internet protocols relevant for penetration testing, network analysis,
-identity systems, and secure communications. Grouped by layer and
-function for clarity.</p>
-<h3 id="-core-networking-layer-3--4">🔹 Core Networking (Layer 3 &amp; 4)</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Internet_Protocol" target="_blank" rel="noopener noreferrer">IP (IPv4/IPv6)</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank" rel="noopener noreferrer">TCP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol" target="_blank" rel="noopener noreferrer">UDP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol" target="_blank" rel="noopener noreferrer">ICMP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-</p>
-<h3 id="-address-resolution--link-layer">🔸 Address Resolution &amp; Link Layer</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol" target="_blank" rel="noopener noreferrer">ARP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" target="_blank" rel="noopener noreferrer">DHCP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Ethernet" target="_blank" rel="noopener noreferrer">Ethernet</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-</p>
-<h3 id="-application-layer--web--content">🟢 Application Layer – Web &amp; Content</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank" rel="noopener noreferrer">HTTP/1.1</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/HTTP/2" target="_blank" rel="noopener noreferrer">HTTP/2</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/HTTP/3" target="_blank" rel="noopener noreferrer">HTTP/3</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank" rel="noopener noreferrer">HTTPS (TLS)</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/QUIC" target="_blank" rel="noopener noreferrer">QUIC</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-</p>
-<h3 id="-application-layer--auth--identity">🔵 Application Layer – Auth &amp; Identity</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/OAuth" target="_blank" rel="noopener noreferrer">OAuth 2.0</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/OpenID_Connect" target="_blank" rel="noopener noreferrer">OpenID Connect</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/SAML_2.0" target="_blank" rel="noopener noreferrer">SAML</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-</p>
-<h3 id="-application-layer--infrastructure--messaging">🟠 Application Layer – Infrastructure &amp; Messaging</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Domain_Name_System" target="_blank" rel="noopener noreferrer">DNS</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol" target="_blank" rel="noopener noreferrer">SMTP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol" target="_blank" rel="noopener noreferrer">IMAP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Post_Office_Protocol" target="_blank" rel="noopener noreferrer">POP3</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank" rel="noopener noreferrer">FTP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol" target="_blank" rel="noopener noreferrer">SFTP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Server_Message_Block" target="_blank" rel="noopener noreferrer">SMB</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol" target="_blank" rel="noopener noreferrer">SNMP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-</p>
-<h3 id="-security--vpn--encryption">🔴 Security / VPN / Encryption</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/WireGuard" target="_blank" rel="noopener noreferrer">WireGuard</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank" rel="noopener noreferrer">TLS</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/SSL" target="_blank" rel="noopener noreferrer">SSL</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/OpenVPN" target="_blank" rel="noopener noreferrer">OpenVPN</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/IPsec" target="_blank" rel="noopener noreferrer">IPSec</a>
-  
-  — <span class="skill-stars">⭐☆☆☆☆</span>
-</span>
-</p>
-<h3 id="-emerging--misc-protocols">🧪 Emerging / Misc Protocols</h3>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/MQTT" target="_blank" rel="noopener noreferrer">MQTT</a>
-  
-  — <span class="skill-stars">⭐⭐☆☆☆</span>
-</span>
-
-<h2 id="-python-ecosystem">📦 Python Ecosystem</h2>
-<h3 id="-data--ml">🧮 Data &amp; ML</h3>
-<p>
 
 
 
@@ -2920,119 +3868,10 @@ function for clarity.</p>
   
     <a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer">scikit-learn</a>
   
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://lightgbm.readthedocs.io/" target="_blank" rel="noopener noreferrer">lightgbm</a>
-  
   — <span class="skill-stars">⭐⭐☆☆☆</span>
 </span>
 <br>
 
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://optuna.org/" target="_blank" rel="noopener noreferrer">optuna</a>
-  
-  — <span class="skill-stars">⭐⭐☆☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://pypi.org/project/google-generativeai/" target="_blank" rel="noopener noreferrer">google-generativeai</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-</p>
-<h3 id="-visualization">📊 Visualization</h3>
-<p>
 
 
 
@@ -3065,46 +3904,10 @@ function for clarity.</p>
   
     <a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">matplotlib</a>
   
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://altair-viz.github.io/" target="_blank" rel="noopener noreferrer">altair</a>
-  
   — <span class="skill-stars">⭐⭐☆☆☆</span>
 </span>
 </p>
-<h3 id="-web--apis">🌐 Web &amp; APIs</h3>
+<h3 id="web-frameworks-apis--data-formats">Web Frameworks, APIs &amp; Data Formats</h3>
 <p>
 
 
@@ -3136,7 +3939,115 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a>
+    <a href="https://en.wikipedia.org/wiki/REST" target="_blank" rel="noopener noreferrer">RESTful APIs</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://yaml.org" target="_blank" rel="noopener noreferrer">YAML</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/JSON" target="_blank" rel="noopener noreferrer">JSON</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/XML" target="_blank" rel="noopener noreferrer">XML</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -3172,7 +4083,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
+    <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
@@ -3208,441 +4119,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://docs.python-requests.org/" target="_blank" rel="noopener noreferrer">requests</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-</p>
-<h3 id="-dev--docs">🧰 Dev &amp; Docs</h3>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.sphinx-doc.org/" target="_blank" rel="noopener noreferrer">sphinx</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-
-<h3 id="-misc-python-libraries">⚙️ Misc Python Libraries</h3>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/argparse.html" target="_blank" rel="noopener noreferrer">argparse</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/re.html" target="_blank" rel="noopener noreferrer">re</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/os.html" target="_blank" rel="noopener noreferrer">os</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/json.html" target="_blank" rel="noopener noreferrer">json</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/subprocess.html" target="_blank" rel="noopener noreferrer">subprocess</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/asyncio.html" target="_blank" rel="noopener noreferrer">asyncio</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/pathlib.html" target="_blank" rel="noopener noreferrer">pathlib</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/typing.html" target="_blank" rel="noopener noreferrer">typing</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/unittest.html" target="_blank" rel="noopener noreferrer">unittest</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.python-httpx.org/" target="_blank" rel="noopener noreferrer">httpx</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.python.org/3/library/multiprocessing.html" target="_blank" rel="noopener noreferrer">multiprocessing</a>
+    <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
@@ -3678,116 +4155,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://rich.readthedocs.io/" target="_blank" rel="noopener noreferrer">rich</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-</p>
-<h2 id="-reverse-engineering--analysis">🧬 Reverse Engineering / Analysis</h2>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://ghidra-sre.org/" target="_blank" rel="noopener noreferrer">Ghidra</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://rada.re/n/" target="_blank" rel="noopener noreferrer">Radare2</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://hex-rays.com/ida-pro/" target="_blank" rel="noopener noreferrer">IDA Pro</a>
+    <a href="https://alpinejs.dev/" target="_blank" rel="noopener noreferrer">Alpine.js</a>
   
   — <span class="skill-stars">⭐⭐☆☆☆</span>
 </span>
@@ -3823,373 +4191,12 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://frida.re/" target="_blank" rel="noopener noreferrer">Frida</a>
-  
-  — <span class="skill-stars">⭐⭐☆☆☆</span>
-</span>
-</p>
-<h2 id="-infrastructure--orchestration">📦 Infrastructure &amp; Orchestration</h2>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.docker.com/compose" target="_blank" rel="noopener noreferrer">Docker compose</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.docker.com/engine/swarm" target="_blank" rel="noopener noreferrer">Docker swarm</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.gluster.org/" target="_blank" rel="noopener noreferrer">GlusterFS</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://galeracluster.com/" target="_blank" rel="noopener noreferrer">Galera Cluster</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.haproxy.org/" target="_blank" rel="noopener noreferrer">HAProxy</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.nagios.org/" target="_blank" rel="noopener noreferrer">Nagios</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://docs.gitlab.com/ee/ci/" target="_blank" rel="noopener noreferrer">GitLab CI</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://github.com/features/actions" target="_blank" rel="noopener noreferrer">GitHub Actions</a>
-  
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://puppet.com/" target="_blank" rel="noopener noreferrer">Puppet</a>
+    <a href="https://websockets.spec.whatwg.org/" target="_blank" rel="noopener noreferrer">WebSockets</a>
   
   — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
 </p>
-<h2 id="-databases">🗄️ Databases</h2>
+<h3 id="databases">Databases</h3>
 <p>
 
 
@@ -4333,8 +4340,45 @@ function for clarity.</p>
   
   — <span class="skill-stars">⭐⭐☆☆☆</span>
 </span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a>
+  
+  — <span class="skill-stars">⭐☆☆☆☆</span>
+</span>
 </p>
-<h2 id="-protocols--auth">🔄 Protocols &amp; Auth</h2>
+<h2 id="-specialized--foundational-skills">🔬 Specialized &amp; Foundational Skills</h2>
+<h3 id="hardware-hacking--embedded-systems">Hardware Hacking &amp; Embedded Systems</h3>
 <p>
 
 
@@ -4366,7 +4410,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://datatracker.ietf.org/wg/oauth/about/" target="_blank" rel="noopener noreferrer">OAuth2</a>
+    <a href="https://developer.android.com/tools/adb" target="_blank" rel="noopener noreferrer">adb</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -4402,79 +4446,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://openid.net/" target="_blank" rel="noopener noreferrer">OpenID Connect</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/JSON_Web_Token" target="_blank" rel="noopener noreferrer">JWT</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language" target="_blank" rel="noopener noreferrer">SAML</a>
+    <a href="https://www.android.com/" target="_blank" rel="noopener noreferrer">Android (AOSP / Rooted)</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -4510,12 +4482,444 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol" target="_blank" rel="noopener noreferrer">LDAP</a>
+    <a href="https://lineageos.org/" target="_blank" rel="noopener noreferrer">LineageOS Build System</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Fastboot" target="_blank" rel="noopener noreferrer">fastboot</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer">Arduino</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.raspberrypi.com/" target="_blank" rel="noopener noreferrer">Raspberry Pi</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/ReFirmLabs/binwalk" target="_blank" rel="noopener noreferrer">Firmware Analysis (binwalk)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://openwrt.org/" target="_blank" rel="noopener noreferrer">Custom Router Firmware (OpenWRT)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.twrp.me/" target="_blank" rel="noopener noreferrer">TWRP</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://proxmark.com/" target="_blank" rel="noopener noreferrer">Proxmark3</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Near-field_communication" target="_blank" rel="noopener noreferrer">NFC / RFID Analysis</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://qmk.fm/" target="_blank" rel="noopener noreferrer">Custom Keyboard Firmware (QMK)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.pjrc.com/teensy/" target="_blank" rel="noopener noreferrer">HID Emulation (Teensy)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.rtl-sdr.com/" target="_blank" rel="noopener noreferrer">RTL-SDR &amp; BLE Sniffing</a>
+  
+  — <span class="skill-stars">⭐⭐☆☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Serial_Peripheral_Interface" target="_blank" rel="noopener noreferrer">I2C / SPI / UART</a>
+  
+  — <span class="skill-stars">⭐☆☆☆☆</span>
 </span>
 </p>
-<h2 id="-crypto--identity">🔐 Crypto &amp; Identity</h2>
+<h3 id="core-tools--utilities">Core Tools &amp; Utilities</h3>
 <p>
 
 
@@ -4547,7 +4951,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank" rel="noopener noreferrer">SSH (OpenSSH)</a>
+    <a href="https://www.gnu.org/s/emacs/" target="_blank" rel="noopener noreferrer">Emacs &amp; Org-mode</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -4583,224 +4987,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://gnupg.org/" target="_blank" rel="noopener noreferrer">GPG (OpenPGP)</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/OpenPGP" target="_blank" rel="noopener noreferrer">PGP / OpenPGP</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://fidoalliance.org/fido2/" target="_blank" rel="noopener noreferrer">FIDO2 / WebAuthn</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm" target="_blank" rel="noopener noreferrer">TOTP / HOTP / U2F / Smart Cards</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication" target="_blank" rel="noopener noreferrer">MFA (SMS / Email / OTP apps)</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://en.wikipedia.org/wiki/Hardware_security_module" target="_blank" rel="noopener noreferrer">Hardware Security Tokens (YubiKey, etc)</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-</p>
-<h2 id="-tools--utilities">🧰 Tools &amp; Utilities</h2>
-<p>
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://www.gnu.org/s/emacs/" target="_blank" rel="noopener noreferrer">Emacs</a>
+    <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank" rel="noopener noreferrer">Regular Expressions (Regex)</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -4836,7 +5023,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noopener noreferrer">Markdown</a>
+    <a href="https://www.gnu.org/software/coreutils/coreutils.html" target="_blank" rel="noopener noreferrer">Coreutils (sed, awk, grep, xargs)</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -4872,9 +5059,9 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://orgmode.org/" target="_blank" rel="noopener noreferrer">Org-mode</a>
+    <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>
   
-  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
 <br>
 
@@ -4909,6 +5096,42 @@ function for clarity.</p>
 <span class="skill-entry">
   
     <a href="https://vim.org/" target="_blank" rel="noopener noreferrer">vim</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">gdb</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -5088,12 +5311,48 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.man7.org/linux/man-pages/man1/expect.1.html" target="_blank" rel="noopener noreferrer">Expect</a>
+    <a href="https://www.gnu.org/software/diffutils/manual/diffutils.html" target="_blank" rel="noopener noreferrer">diff / patch</a>
   
   — <span class="skill-stars">⭐⭐☆☆☆</span>
 </span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://cmake.org/" target="_blank" rel="noopener noreferrer">CMake</a>
+  
+  — <span class="skill-stars">⭐☆☆☆☆</span>
+</span>
 </p>
-<h2 id="-osint--recon">🔎 OSINT &amp; Recon</h2>
+<h3 id="authentication--identity">Authentication &amp; Identity</h3>
 <p>
 
 
@@ -5125,7 +5384,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.maltego.com/" target="_blank" rel="noopener noreferrer">Maltego</a>
+    <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank" rel="noopener noreferrer">SSH (OpenSSH)</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -5161,7 +5420,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.shodan.io/" target="_blank" rel="noopener noreferrer">Shodan</a>
+    <a href="https://en.wikipedia.org/wiki/JSON_Web_Token" target="_blank" rel="noopener noreferrer">JWT (JSON Web Tokens)</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -5197,7 +5456,43 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://github.com/smicallef/spiderfoot" target="_blank" rel="noopener noreferrer">Spiderfoot</a>
+    <a href="https://en.wikipedia.org/wiki/OAuth" target="_blank" rel="noopener noreferrer">OAuth 2.0 &amp; OpenID Connect</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/SAML_2.0" target="_blank" rel="noopener noreferrer">SAML</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -5233,9 +5528,9 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://github.com/laramies/theHarvester" target="_blank" rel="noopener noreferrer">theHarvester</a>
+    <a href="https://gnupg.org/" target="_blank" rel="noopener noreferrer">GPG / OpenPGP</a>
   
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
 <br>
 
@@ -5269,12 +5564,120 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://github.com/lanmaster53/recon-ng" target="_blank" rel="noopener noreferrer">Recon-ng</a>
+    <a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol" target="_blank" rel="noopener noreferrer">LDAP</a>
   
-  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://fidoalliance.org/fido2/" target="_blank" rel="noopener noreferrer">FIDO2 / WebAuthn</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Multi-factor_authentication" target="_blank" rel="noopener noreferrer">MFA (TOTP, U2F, Smart Cards)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Hardware_security_module" target="_blank" rel="noopener noreferrer">Hardware Security Tokens (YubiKey)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
 </p>
-<h2 id="-project--communication-tools">📋 Project &amp; Communication Tools</h2>
+<h3 id="networking-protocols--analysis">Networking Protocols &amp; Analysis</h3>
 <p>
 
 
@@ -5306,7 +5709,440 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a>
+    <a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Internet_Protocol" target="_blank" rel="noopener noreferrer">IP (IPv4/IPv6)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank" rel="noopener noreferrer">TCP / UDP</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank" rel="noopener noreferrer">TLS / HTTPS</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Domain_Name_System" target="_blank" rel="noopener noreferrer">DNS</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank" rel="noopener noreferrer">HTTP (1.1, 2, 3)</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" target="_blank" rel="noopener noreferrer">DHCP</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.wireguard.com/" target="_blank" rel="noopener noreferrer">WireGuard</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://www.tcpdump.org/" target="_blank" rel="noopener noreferrer">tcpdump</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://en.wikipedia.org/wiki/Netcat" target="_blank" rel="noopener noreferrer">Netcat</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://scapy.net/" target="_blank" rel="noopener noreferrer">Scapy</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+</p>
+<h3 id="project-management--communication">Project Management &amp; Communication</h3>
+<p>
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+  
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer">Gitlab</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -5378,7 +6214,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.atlassian.com/software/confluence/" target="_blank" rel="noopener noreferrer">Confluence</a>
+    <a href="https://daringfireball.net/projects/markdown/" target="_blank" rel="noopener noreferrer">Markdown</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
@@ -5414,45 +6250,9 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://workspace.google.com/" target="_blank" rel="noopener noreferrer">Google Workspace</a>
+    <a href="https://www.atlassian.com/software/confluence/" target="_blank" rel="noopener noreferrer">Confluence</a>
   
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
-</span>
-<br>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-<span class="skill-entry">
-  
-    <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>
-  
-  — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+  — <span class="skill-stars">⭐⭐⭐⭐⭐</span>
 </span>
 <br>
 
@@ -5522,7 +6322,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://zoom.us/" target="_blank" rel="noopener noreferrer">Zoom</a>
+    <a href="https://www.collaboraonline.com/" target="_blank" rel="noopener noreferrer">Collabora</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -5558,7 +6358,7 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://teams.microsoft.com/" target="_blank" rel="noopener noreferrer">MS Teams</a>
+    <a href="https://workspace.google.com/" target="_blank" rel="noopener noreferrer">Google Workspace</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
 </span>
@@ -5594,9 +6394,81 @@ function for clarity.</p>
 
 <span class="skill-entry">
   
-    <a href="https://www.office.com/" target="_blank" rel="noopener noreferrer">MS Office</a>
+    <a href="https://www.office.com/" target="_blank" rel="noopener noreferrer">MS Office / Teams</a>
   
   — <span class="skill-stars">⭐⭐⭐⭐☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
+</span>
+<br>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+<span class="skill-entry">
+  
+    <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a>
+  
+  — <span class="skill-stars">⭐⭐⭐☆☆</span>
 </span>
 </p>
 

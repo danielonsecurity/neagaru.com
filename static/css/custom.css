@@ -10,32 +10,30 @@ body {
   padding: 0;
 }
 
-main, .content {
+main {
   position: relative;
   z-index: 1;
-  background-color: rgba(0,0,0,0.6); /* optional overlay for readability */
-  padding: 2rem;
-  border-radius: 0.5rem;
 }
 
-
-
 .content-wrapper {
-  background-color: rgba(53, 126, 221, 0.18); /* ← semi-transparent black */
+  background-color: rgba(53, 126, 221, 0.18);
   padding: 2rem;
   border-radius: 12px;
   max-width: 1000px;
-  margin: 3rem auto;
+  margin: 2rem auto; /* Adjusted margin for mobile */
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   color: #fff;
+  box-sizing: border-box; 
+  width: 95%;
 }
+
 
 .content-wrapper p,
 .content-wrapper li,
 .content-wrapper span,
 .content-wrapper strong,
 .content-wrapper em {
-  color: #fff !important; /* or #111 if you use light background */
+  color: #fff !important;
 }
 
 .content-wrapper h1,
@@ -45,7 +43,7 @@ main, .content {
 }
 
 a {
-  color: #1a8cff; /* bright blue, adjust to your palette */
+  color: #1a8cff;
   text-decoration: none;
 }
 
@@ -70,24 +68,88 @@ a:hover {
   margin-left: 0.25rem;
 }
 
-nav ul li {
-  position: relative;
+
+/* Mobile First: Styles for screens smaller than 60em */
+@media screen and (max-width: 60em) {
+  #main-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: rgba(17, 17, 17, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    z-index: 999;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  #main-menu.is-open {
+    display: block;
+  }
+
+  .main-menu-ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .main-menu-ul li {
+    display: block;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .submenu {
+    position: static;
+    display: block;
+    background-color: transparent;
+    padding: 0.5rem 0 0.5rem 1.5rem; /* Indent sub-items */
+    margin-top: 0.5rem;
+    box-shadow: none;
+    min-width: unset;
+    border: none; /* Remove the separator line */
+    background: rgba(255, 255, 255, 0.05); /* Subtle highlight for the subgroup */
+    border-radius: 4px;
+  }
+
+  .submenu li {
+    font-size: 0.9em; /* Make sub-items slightly smaller */
+  }
 }
 
-nav ul li ul {
-  display: none;
-  position: absolute;
-  top: 100%;  /* Exactly below parent */
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  padding: 0.75rem;
-  min-width: 8rem;
-  z-index: 100;
-}
+/* Desktop Styles: For screens 60em and wider */
+@media screen and (min-width: 60em) {
+  #menu-toggle {
+    display: none !important;
+  }
+  
+  #main-menu {
+    display: flex !important;
+  }
+  
+  /* Make the content wrapper full-width on desktop again */
+  .content-wrapper {
+      width: auto;
+  }
 
-nav ul li:hover > ul,
-nav ul li:focus-within > ul {
-  display: block;
+  /* Restore desktop submenu behavior */
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0.75rem;
+    min-width: 8rem;
+    z-index: 100;
+  }
+
+  .menu-item-has-children:hover > .submenu,
+  .menu-item-has-children:focus-within > .submenu {
+    display: block;
+  }
 }
 
 nav.toc {
@@ -99,16 +161,13 @@ nav.toc ul {
   list-style-type: none;
   padding-left: 0;
 }
-
 nav.toc li {
   margin-bottom: 0.3rem;
 }
-
 nav.toc li ul {
   padding-left: 1rem;
   font-size: 0.95em;
 }
-
 nav.toc a {
   text-decoration: none;
   color: #0366d6;

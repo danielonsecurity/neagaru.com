@@ -32,7 +32,7 @@ new ways to model time, productivity, and human intent.">
 
 
 
-    
+    <script src="/js/nav.js" defer></script>
 
 
     
@@ -72,28 +72,6 @@ I’ve worked with fintech firms, transportation platforms, public agencies, and
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 />
 
-<meta name="description" content="Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider" />
-<meta name="author" content="Daniel Neagaru" />
-
-
-<meta property="og:title" content="About" />
-<meta
-  property="og:description"
-  content="Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider"
-/>
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/about/" />
-<meta property="og:image" content="http://localhost:1313/" />
-
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="About" />
-<meta
-  name="twitter:description"
-  content="Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider"
-/>
-<meta name="twitter:image" content="http://localhost:1313/" />
-
   </head><body class="ma0 avenir bg-near-white development">
 
     
@@ -109,13 +87,17 @@ I’ve worked with fintech firms, transportation platforms, public agencies, and
         Daniel Neagaru
       
     </a>
-    <div class="flex-l items-center">
+
+    <button id="menu-toggle" class="db dn-l bn bg-transparent white-90 f3 pointer" aria-label="Open Menu" aria-expanded="false" aria-controls="main-menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div id="main-menu" class="dn flex-l items-center">
       
 
       
-        <ul class="pl0 mr3">
+        <ul class="main-menu-ul pl0 mr3">
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/" title="">
                 Home
                 
@@ -123,15 +105,15 @@ I’ve worked with fintech firms, transportation platforms, public agencies, and
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative menu-item-has-children">
               <a class="hover-white white-90 no-underline" href="/about/" title="">
                 About
                 
-                  <span aria-hidden="true" class="ml1">▾</span>
+                  <span aria-hidden="true" class="ml1 dn dib-l">▾</span>
                 
               </a>
               
-                <ul class="absolute bg-black-90 pa3" style="min-width: 8rem; z-index: 100;">
+                <ul class="submenu bg-black-90 pa3">
                   
                     <li class="list f6 fw4 mb2">
                       <a class="hover-white white-90 no-underline" href="/contact/" title="">
@@ -155,7 +137,7 @@ I’ve worked with fintech firms, transportation platforms, public agencies, and
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/services/" title="">
                 Services
                 
@@ -163,7 +145,7 @@ I’ve worked with fintech firms, transportation platforms, public agencies, and
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/portfolio/" title="">
                 Portfolio
                 
@@ -171,7 +153,7 @@ I’ve worked with fintech firms, transportation platforms, public agencies, and
               
             </li>
           
-            <li class="list f5 f4-ns fw4 dib pr3 relative">
+            <li class="list f5 f4-ns fw4 db dib-l pr3-l relative ">
               <a class="hover-white white-90 no-underline" href="/blog/" title="">
                 Blog
                 
