@@ -4,14 +4,43 @@ title: "About"
 
 {{< profilepic src="/images/daniel.png" alt="Daniel Neagaru" width="500" >}}
 
+# Daniel Neagaru  
+**Senior Penetration Tester · Systems Architect · Creator of UTMS**
 
-I’m Daniel Neagaru — a senior penetration tester, systems architect, and the creator of **UTMS**, a radical time modeling system.
+I'm a hands-on security engineer and systems thinker with 10+ years of
+experience breaking, building, and optimizing systems — from the
+kernel to the cloud.
 
-For over a decade, I’ve delivered high-impact security and automation across industries, from fintech and transport to public sector and research.
+I've worked with fintech firms, transportation platforms, public
+agencies, and startups, helping them identify critical
+vulnerabilities, build resilient infrastructure, and unlock radically
+new ways to model time, productivity, and human intent.
 
-**Certifications include**: OSCP, OSCE, OSWP, WCNA, Scrum Master (PSM-I).  
-**Fluent in**: Romanian, English, German, and code.
+---
 
-> My work bridges low-level security, high-level strategy, and the metaphysics of time.
+### 🧠 What I Believe
 
-If you're trying to move faster, safer, or smarter — let’s talk.
+Technology should empower, not entrap.  
+Security should be seamless, not obstructive.  
+Time is programmable — and we should treat it that way.
+
+That’s why I created **UTMS**, a universal time modeling system that rethinks how we plan, track, and act in the modern world. It’s AI-assisted, event-driven, and built to integrate deeply with human agency.
+
+---
+
+### 🛠️ Credentials
+
+- **Offensive Security:** OSCP, OSCE, OSWP  
+- **Network & Analysis:** WCNA (Wireshark)  
+- **Team Strategy:** Scrum Master (PSM-I)  
+- **Languages:** Fluent in Romanian, English, German — and code.
+
+I’m also the author of [OWASP Raider](https://github.com/DigeeX/raider), discoverer of multiple CVEs, and a contributor to both open-source.
+
+---
+
+> _My work bridges low-level security, high-level strategy, and the metaphysics of time._
+
+---
+
+If you're building something critical — and want it faster, safer, or smarter — [get in touch](/contact). Let's create something transformative.
