@@ -2,56 +2,94 @@
 title: "Services"
 ---
 
-# What I Offer
+# My Services
 
-I help companies, teams, and individuals solve complex problems across security, automation, and systems design — with deep technical expertise and original tooling.
-
-Whether you're shipping software, scaling infrastructure, or just trying to make sense of time itself, I offer hands-on execution, strategic guidance, and high-trust collaboration.
+I offer a range of specialized services designed to solve complex
+challenges in security, infrastructure, and automation. My approach is
+hands-on, deeply technical, and tailored to your specific
+context—whether you're a startup, a scale-up, or a global enterprise.
 
 ---
 
 ### 🔐 Offensive Security & Penetration Testing
 
-Get ahead of attackers with surgical, high-signal assessments — not checkbox scans.
+Go beyond automated scans with in-depth, manual security assessments
+that simulate real-world attackers. I provide clear, actionable
+reports and support your team through remediation.
 
-- Web & API penetration testing (manual, Burp Suite, custom Python fuzzers)
-- Authentication flow reviews: OAuth 2.0, SAML, OpenID Connect
-- Full lifecycle: audit → remediation support → retesting
-- CVE-quality vulnerability research on request
-
----
-
-### 🧠 Time Modeling & AI-Driven Automation
-
-Design systems that respect your time and attention.  
-
-- Custom-built **UTMS** deployments for time tracking, habit shaping, and forecasting  
-- Founder/exec workflows: time audits, cognitive load mapping, calendar optimization  
-- AI/LISP integration into Emacs, shell, terminals, and life
-
----
-
-### ⚙️ DevOps, Systems Engineering & Infra Security
-
-Build secure, observable, automatable infrastructure from the ground up.
-
-- Linux hardening, CI/CD security, containerized deployments (Docker, hybrid cloud)  
-- Secrets management, logging/monitoring, ELK/Prometheus/Nagios setups  
-- Puppet, Ansible  — or custom scripting if that’s what it takes
+- **Web Application & API Pentesting:** In-depth testing of REST and
+  GraphQL APIs, single-page applications, and complex business logic
+  using Burp Suite Pro, OWASP ZAP, and custom scripts.
+- **Authentication & Authorization Review:** Expert analysis of
+  complex auth flows, including OAuth 2.0, OpenID Connect (OIDC),
+  SAML, and JWT implementations.
+- **Infrastructure & Network Pentesting:** Internal and external
+  network assessments, firewall rule-set review, and vulnerability
+  analysis using tools like Nmap, Metasploit, and Nessus.
+- **Secure Code Review & Threat Modeling:** Static analysis (SAST) and
+  architectural reviews to identify security flaws before they reach
+  production.
+- **CVE-Quality Vulnerability Research:** Targeted research projects
+  to uncover zero-day vulnerabilities in your core products or
+  third-party dependencies.
 
 ---
 
-### 🧪 Custom R&D & Technical Consulting
+### ⚙️ Systems Engineering & Infrastructure Security
 
-I take on unusual, high-leverage problems:  
-If you need someone to reverse engineer a system, build an AI that understands your bash history, or architect a zero-click alerting pipeline, I’ll make it happen.
+Build and maintain secure, resilient, and observable infrastructure
+grounded in industry best practices and years of hands-on
+administrative experience.
 
-- Security research and exploit development  
-- Reverse engineering, protocol analysis  
-- Python development, API integrations, internal tools  
-- Proof-of-concept automation, one-off agents, edge-case weirdness
+- **Linux & OS Hardening:** System hardening for Linux, and BSD-based
+  servers, including secure configuration of services, firewalls
+  (iptables/nftables), and kernel parameters.
+- **Secure CI/CD & DevOps:** Auditing and securing automation
+  pipelines (GitLab CI, GitHub Actions) and containerized workflows
+  (Docker, Docker Swarm).
+- **High Availability (HA) Architecture:** Design and implementation
+  of fault-tolerant systems using technologies like HAProxy,
+  GlusterFS, and Galera Cluster for databases.
+- **Monitoring & Logging:** Setup and administration of monitoring
+  stacks like ELK, Nagios, and Prometheus for proactive threat
+  detection and performance analysis.
 
 ---
 
-> Have something specific — or something too weird for a typical consultant?  
-> I like edge cases. [Let’s talk](/contact).
+### 🧪 Custom Tooling, R&D, and Automation
+
+For problems that require a unique solution, I design and build
+bespoke tools, scripts, and frameworks.
+
+- **Custom Automation Scripts:** Development of scripts in Python,
+  Bash, or Hy (LISP) to automate security testing, system
+  administration, and complex data processing tasks.
+- **Bespoke Tool Development:** Building internal tools, API
+  integrations, and proof-of-concept applications, leveraging
+  frameworks like FastAPI and Django.
+- **UTMS Deployments:** Custom implementation of the Universal Time
+  Modeling System to help founders and teams achieve radical
+  productivity through programmable, AI-assisted time management.
+
+---
+
+### 🔬 Specialized Research & Hardware Hacking
+
+I take on unconventional R&D projects that fall outside the scope of
+typical consulting.
+
+- **Reverse Engineering:** Analyzing binaries and applications using
+  Ghidra, Radare2, and x64dbg to understand their functionality and
+  find security weaknesses.
+- **Firmware & Embedded Device Analysis:** Extracting and analyzing
+  firmware from IoT and embedded devices using tools like `binwalk` to
+  identify hidden vulnerabilities.
+- **Mobile Security:** Auditing Android applications and systems,
+  including analysis of rooted/custom ROM (LineageOS) environments.
+- **Hardware & Radio Hacking:** NFC/RFID analysis (Proxmark3), HID
+  emulation (Teensy), and SDR-based sniffing for specialized physical
+  and wireless assessments.
+
+> Have a unique challenge or an edge case that doesn't fit a standard
+> service? **I build solutions for hard problems.** [Let's talk about
+> it](/contact).

@@ -1,35 +1,58 @@
 ---
-title: "Daniel Neagaru – Senior Security Consultant & Systems Automation Engineer"
+title: "Daniel Neagaru – Hacker · Systems Architect · Automation Expert"
 featured_image: "images/banner.png"
 cta_button: true
 ---
 
-I help companies and security-conscious individuals **strengthen cybersecurity, streamline automation, and master time modeling** with innovative, custom-built solutions.
+I design and execute high-impact solutions in **offensive security,
+resilient infrastructure, and systems automation**.
 
-With over a decade in offensive security and systems architecture, I deliver deep technical audits, bespoke tooling, and AI-driven workflow optimization tailored to your needs.
+With 15+ years of experience breaking and building systems from first
+principles, I help organizations uncover critical vulnerabilities,
+deploy scalable infrastructure, and develop bespoke tools to solve
+their hardest technical challenges.
 
-> “People who are crazy enough to think they can change the world are the ones who do.”
+> "My work bridges low-level security, high-level strategy, and the
+> metaphysics of time."
 
-**Let’s secure your future and boost your productivity — [get in touch today](/contact).**
+**Let's build something faster, safer, and smarter. [Book a
+consultation](/contact).**
 
 ---
 
-### What I Do
+### Core Expertise
 
-- 🔐 **Security Consulting & Penetration Testing:** Identify and remediate critical vulnerabilities before attackers do.
-- ⚙️ **Custom Automation & DevOps:** Automate repetitive workflows, CI/CD pipelines, and system monitoring.
-- ⏳ **Advanced Time Modeling & AI Tools:** Leverage programmable frameworks to track, predict, and optimize your time and habits.
+- 🔐 **Offensive Security:** I uncover vulnerabilities others
+  miss. From complex web authentication flows (OAuth, SAML) and API
+  logic flaws to low-level reverse engineering and hardware
+  exploits. I find the gaps before attackers do.
+
+- ⚙️ **Systems Architecture & Automation:** I build secure,
+  high-availability systems that last. My expertise covers Linux
+  hardening, CI/CD pipeline security (GitLab CI, Docker), and
+  clustered infrastructure (GlusterFS, Galera, HAProxy).
+
+- 🧠 **Custom Tooling & Research:** I create novel solutions for
+  unique problems. This includes the [OWASP
+  Raider](https://github.com/OWASP/raider) framework for auth testing
+  and the [UTMS](https://utms.io/) for programmable time modeling,
+  both built on a foundation of Python and LISP.
 
 ---
 
 ### Why Work With Me?
 
-- Proven track record with leading clients across Europe and beyond.
-- Open-source contributor and author of novel security tools.
-- Clear, actionable insights tailored to your business context.
-- Flexible engagement: short audits, long-term projects, training, and workshops.
+- **Proven Impact:** Discoverer of multiple high-impact CVEs in
+  widely-used open-source software and commercial products.
+- **Builder's Mindset:** I don't just find problems; I understand how
+  to fix them because I've built and administered the systems myself.
+- **First-Principles Approach:** Deep expertise in core technologies
+  (Linux, TCP/IP, C, Python) allows me to solve problems that can't be
+  fixed with off-the-shelf tools.
+- **Full-Spectrum Skills:** My work spans from web application
+  pentesting to custom firmware analysis and hardware hacking.
 
 ---
 
-**Ready for a security review, automation boost, or time mastery?**  
-[Contact me now →](/contact)
+**Ready to tackle your most critical security or automation challenges?**  
+[Contact me to get started →](/contact)

@@ -16,7 +16,7 @@ configuration in Hy (LISP on Python), frontend in React + vite +
 TypeScript.
 
 
-### [OWASP Raider](https://github.com/DigeeX/raider)
+### [OWASP Raider](https://github.com/OWASP/raider)
 A web authentication testing framework for exploring complex HTTP
 session workflows. Built in Python, configurable with Hy (LISP on
 Python).  Presented at multiple security conferences. Raider models
