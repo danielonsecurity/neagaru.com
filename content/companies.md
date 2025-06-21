@@ -25,6 +25,7 @@ Below is a curated list of those companies, grouped by type of engagement.
 - **[Anywr](https://www.anywr-group.com/)** — Senior cybersecurity consultant; founded their offensive security division
 - **[Akkodis (Modis)](https://www.akkodis.com/)** — Advanced penetration tester; built a team of pentesters and performed numerous assignments
 - **[FREE NOW (mytaxi)](https://www.free-now.com/)** — Penetration tester; supported OAuth 2.0 and MFA infrastructure, responded to security threats
+- **[it.sec GmbH](https://sits.com/de/it.sec)** — Penetration tester; condicted web application and infrastructure penetration testing
 - **[Toptranslation GmbH](https://www.toptranslation.com/)** — System administrator; managed Docker, Puppet, Galera clusters, LDAP, and more 
 
 ---

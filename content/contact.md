@@ -22,6 +22,8 @@ If you’re looking for:
 
 ### 🔗 Contact Channels
 
+{{< figure src="/images/qrcode.png" title="Contact me" width="300">}} 
+
 {{< iconlink url="mailto:daniel@neagaru.com" icon="fas fa-envelope" label="Email" >}}  
 {{< iconlink url="https://www.linkedin.com/in/neagaru" icon="fa-brands fa-linkedin" label="LinkedIn" >}}  
 {{< iconlink url="https://github.com/danielonsecurity" icon="fa-brands fa-github" label="GitHub" >}}  
