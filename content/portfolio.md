@@ -38,7 +38,7 @@ responsible channels.
   [Talked about API security](https://www.youtube.com/watch?v=lGDETbe0b6w) at a Ruby Unconf event, explaining how web fuzzing works.
 
 - **Several Security Conference Demos** *(OWASP Raider, 2023)*  
-  [Presented Raider’s novel approach](https://www.youtube.com/watch?v=e2iDZXhAs-M&t=26s) to testing authentication flows using stateful scripting.
+  [Presented Raider’s novel approach](https://www.youtube.com/watch?v=e2iDZXhAs-M) to testing authentication flows using stateful scripting.
 
 ---
 
