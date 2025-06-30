@@ -20,13 +20,12 @@ main {
   padding: 2rem;
   border-radius: 12px;
   max-width: 1000px;
-  margin: 2rem auto; /* Adjusted margin for mobile */
+  margin: 2rem auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   color: #fff;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   width: 95%;
 }
-
 
 .content-wrapper p,
 .content-wrapper li,
@@ -68,90 +67,6 @@ a:hover {
   margin-left: 0.25rem;
 }
 
-
-/* Mobile First: Styles for screens smaller than 60em */
-@media screen and (max-width: 60em) {
-  #main-menu {
-    display: none;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    background: rgba(17, 17, 17, 0.95);
-    backdrop-filter: blur(5px);
-    padding: 1rem;
-    z-index: 999;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  #main-menu.is-open {
-    display: block;
-  }
-
-  .main-menu-ul {
-    flex-direction: column;
-    width: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  .main-menu-ul li {
-    display: block;
-    padding: 0.5rem 0;
-    text-align: center;
-  }
-  
-  .submenu {
-    position: static;
-    display: block;
-    background-color: transparent;
-    padding: 0.5rem 0 0.5rem 1.5rem; /* Indent sub-items */
-    margin-top: 0.5rem;
-    box-shadow: none;
-    min-width: unset;
-    border: none; /* Remove the separator line */
-    background: rgba(255, 255, 255, 0.05); /* Subtle highlight for the subgroup */
-    border-radius: 4px;
-  }
-
-  .submenu li {
-    font-size: 0.9em; /* Make sub-items slightly smaller */
-  }
-}
-
-/* Desktop Styles: For screens 60em and wider */
-@media screen and (min-width: 60em) {
-  #menu-toggle {
-    display: none !important;
-  }
-  
-  #main-menu {
-    display: flex !important;
-  }
-  
-  /* Make the content wrapper full-width on desktop again */
-  .content-wrapper {
-      width: auto;
-  }
-
-  /* Restore desktop submenu behavior */
-  .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 0.75rem;
-    min-width: 8rem;
-    z-index: 100;
-  }
-
-  .menu-item-has-children:hover > .submenu,
-  .menu-item-has-children:focus-within > .submenu {
-    display: block;
-  }
-}
-
 nav.toc {
   border-left: 4px solid #ccc;
   padding-left: 1em;
@@ -171,4 +86,76 @@ nav.toc li ul {
 nav.toc a {
   text-decoration: none;
   color: #0366d6;
+}
+
+/* --- Desktop Dropdown Menu --- */
+.desktop-menu-has-children .desktop-submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(15, 15, 15, 0.95);
+  backdrop-filter: blur(5px);
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  z-index: 1000;
+}
+
+.desktop-menu-has-children:hover .desktop-submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.desktop-submenu a {
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+}
+
+.desktop-submenu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Mobile Slide-in Menu --- */
+.mobile-menu-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-width: 80%;
+  height: 100%;
+  background-color: #111;
+  box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 1002;
+  overflow-y: auto;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* --- The "Open" State --- */
+body.menu-is-open .mobile-menu-panel {
+  transform: translateX(0);
+}
+
+body.menu-is-open .menu-overlay {
+  opacity: 1;
+  visibility: visible;
 }

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Мой блог | Daniel Neagaru</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Здесь собраны последние посты из моей рассылки на Substack.">
+    <meta name="generator" content="Hugo 0.147.8">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Daniel Neagaru">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    <script src="/js/nav.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daniel Neagaru",
+  "url": "https://neagaru.com/",
+  "image": "https://neagaru.com/images/daniel.png",
+  "sameAs": [
+    "https://github.com/danielonsecurity",
+    "https://www.linkedin.com/in/neagaru"
+  ],
+  "jobTitle": "Penetration Tester, Systems Architect",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Freelance / Independent"
+  },
+  "email": "mailto:daniel@neagaru.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hamburg",
+    "addressCountry": "DE"
+  }
+}
+</script>
+
+
+    
+      
+
+    
+
+    
+      <link rel="stylesheet" href="/css/custom.css">
+
+    
+      <link rel="canonical" href="http://localhost:1313/ru/blog/">
+    
+      <link rel="me" href="https://www.wikidata.org/wiki/User:Neagaru" />
+    <meta property="og:url" content="http://localhost:1313/ru/blog/">
+  <meta property="og:site_name" content="Daniel Neagaru">
+  <meta property="og:title" content="Мой блог">
+  <meta property="og:description" content="Здесь собраны последние посты из моей рассылки на Substack.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+
+  <meta itemprop="name" content="Мой блог">
+  <meta itemprop="description" content="Здесь собраны последние посты из моей рассылки на Substack.">
+  <meta itemprop="wordCount" content="9">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Мой блог">
+  <meta name="twitter:description" content="Здесь собраны последние посты из моей рассылки на Substack.">
+
+	<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+/>
+
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/banner.png');">
+    
+    <div class="bg-black-60">
+      
+<nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex items-center justify-between">
+    <a
+      href="/ru/"
+      class="f3 fw2 hover-white white-90 dib no-underline"
+      title="Daniel Neagaru Homepage"
+    >
+      
+      <img
+        src="/images/logo.png"
+        class="w100 mw5-ns"
+        alt="Daniel Neagaru"
+      />
+      
+    </a>
+
+    
+    <div class="dn db-l">
+      <ul class="flex items-center list pa0 ma0">
+        <li class="dib">
+<div class="relative dib lang-switcher">
+  
+  <button class="js-lang-toggle bg-transparent border-0 pa0 pointer">
+    
+      <span class="f3">🇷🇺</span>
+    
+  </button>
+
+  
+  <ul class="js-lang-menu absolute mt2 bg-black pa2 white shadow-5 dn z-999">
+    
+      <li class="mb1">
+        <a href="/en/blog/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇺🇸</span>
+            
+            <span class="f6">English</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/de/blog/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇩🇪</span>
+            
+            <span class="f6">Deutsch</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/ro/blog/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇷🇴</span>
+            
+            <span class="f6">Română</span>
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/"
+            title="Главная"
+          >
+            Главная 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 desktop-menu-has-children"
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/about/"
+            title="Обо мне"
+          >
+            Обо мне <span
+              aria-hidden="true"
+              class="ml1"
+              >▾</span
+            >
+          </a>
+          
+          <ul class="desktop-submenu list pa0 ma0">
+            
+            <li class="f6 fw4">
+              <a
+                class="db pa2 hover-white white-90 no-underline"
+                href="/ru/skills/"
+                title="Навыки"
+              >
+                Навыки
+              </a>
+            </li>
+            
+            <li class="f6 fw4">
+              <a
+                class="db pa2 hover-white white-90 no-underline"
+                href="/ru/companies/"
+                title="Компании"
+              >
+                Компании
+              </a>
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/services/"
+            title="Услуги"
+          >
+            Услуги 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/portfolio/"
+            title="Портфолио"
+          >
+            Портфолио 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/blog/"
+            title="Блог"
+          >
+            Блог 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/contact/"
+            title="Контакт"
+          >
+            Контакт 
+          </a>
+          
+        </li>
+         
+      </ul>
+    </div>
+
+    
+    <button
+      id="menu-toggle"
+      class="db dn-l bn bg-transparent white-90 f3 pointer"
+      aria-label="Open Menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu-panel"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+
+<div id="mobile-menu-panel" class="mobile-menu-panel">
+  <div class="flex justify-end pa3">
+    <button
+      id="menu-close"
+      class="bn bg-transparent white-90 f2 pointer"
+      aria-label="Close Menu"
+    >
+      ×
+    </button>
+  </div>
+  <div class="pa4">
+    <ul class="list pa0 ma0">
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/"
+          title="Главная"
+        >
+          Главная
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/about/"
+          title="Обо мне"
+        >
+          Обо мне
+        </a>
+        
+        <ul class="list pa0 ma0 mt2 pl3">
+          
+          <li class="mb3">
+            <a
+              class="f5 white-80 no-underline"
+              href="/ru/skills/"
+              title="Навыки"
+            >
+              Навыки
+            </a>
+          </li>
+          
+          <li class="mb3">
+            <a
+              class="f5 white-80 no-underline"
+              href="/ru/companies/"
+              title="Компании"
+            >
+              Компании
+            </a>
+          </li>
+          
+        </ul>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/services/"
+          title="Услуги"
+        >
+          Услуги
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/portfolio/"
+          title="Портфолио"
+        >
+          Портфолио
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/blog/"
+          title="Блог"
+        >
+          Блог
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/contact/"
+          title="Контакт"
+        >
+          Контакт
+        </a>
+        
+      </li>
+      
+    </ul>
+    <div class="mt5">
+<div class="relative dib lang-switcher">
+  
+  <button class="js-lang-toggle bg-transparent border-0 pa0 pointer">
+    
+      <span class="f3">🇷🇺</span>
+    
+  </button>
+
+  
+  <ul class="js-lang-menu absolute mt2 bg-black pa2 white shadow-5 dn z-999">
+    
+      <li class="mb1">
+        <a href="/en/blog/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇺🇸</span>
+            
+            <span class="f6">English</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/de/blog/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇩🇪</span>
+            
+            <span class="f6">Deutsch</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/ro/blog/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇷🇴</span>
+            
+            <span class="f6">Română</span>
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</div>
+    <div class="mt4">
+      
+    </div>
+  </div>
+</div>
+<div id="menu-overlay" class="menu-overlay"></div>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          Мой блог
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main>
+      <div class="content-wrapper">
+        
+<article class="mw8 center ph3">
+  <header class="mt4 w-100">
+    <h1 class="f1 athelas mt3 mb1">Мой блог</h1>
+  </header>
+
+  <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray">
+     <p>Здесь собраны последние посты из моей рассылки на Substack.</p>
+
+  </div>
+
+  
+  <hr />
+  
+
+
+
+  
+  
+
+    
+    
+      
+    
+
+    <div class="substack-feed">
+      <h2 class="f3 b">Latest from my Substack</h2>
+      
+        <article class="substack-post pv3" style="border-bottom: 1px solid #eee;">
+          <h3 class="post-title f4 mt0 mb1">
+            <a href="https://blog.neagaru.com/p/chapter-1-time-is-spaghetti" target="_blank" rel="noopener noreferrer" class="link dim">Rethinking Time. Chapter 1: Time is spaghetti</a>
+          </h3>
+          <p class="post-meta f6 gray mt0 mb2">
+            Published on 27 июня 2025 г.
+          </p>
+          <div class="post-description nested-copy-line-height lh-copy">
+            Why the clock you trust might be gaslighting you.
+          </div>
+          <a href="https://blog.neagaru.com/p/chapter-1-time-is-spaghetti" class="read-more link dim" target="_blank" rel="noopener noreferrer">Read on Substack →</a>
+        </article>
+      
+        <article class="substack-post pv3" style="border-bottom: 1px solid #eee;">
+          <h3 class="post-title f4 mt0 mb1">
+            <a href="https://blog.neagaru.com/p/time-is-broken-utms-is-my-fix" target="_blank" rel="noopener noreferrer" class="link dim">Rethinking Time. Chapter 0: Time is broken. UTMS is my fix.</a>
+          </h3>
+          <p class="post-meta f6 gray mt0 mb2">
+            Published on 21 июня 2025 г.
+          </p>
+          <div class="post-description nested-copy-line-height lh-copy">
+            I built a system to track time the way I actually live it &#8212; not the way productivity apps think I do. UTMS is not a to-do list, it's a time engine.
+          </div>
+          <a href="https://blog.neagaru.com/p/time-is-broken-utms-is-my-fix" class="read-more link dim" target="_blank" rel="noopener noreferrer">Read on Substack →</a>
+        </article>
+      
+        <article class="substack-post pv3" style="border-bottom: 1px solid #eee;">
+          <h3 class="post-title f4 mt0 mb1">
+            <a href="https://blog.neagaru.com/p/exploiting-tiny-tiny-rss-2020" target="_blank" rel="noopener noreferrer" class="link dim">Exploiting Tiny Tiny RSS (2020)</a>
+          </h3>
+          <p class="post-meta f6 gray mt0 mb2">
+            Published on 20 июня 2025 г.
+          </p>
+          <div class="post-description nested-copy-line-height lh-copy">
+            In August of 2020, we decided to analyze Tiny Tiny RSS web application for security vulnerabilities. We had great success in doing so, and this blog post will describe how we found and exploited them.
+          </div>
+          <a href="https://blog.neagaru.com/p/exploiting-tiny-tiny-rss-2020" class="read-more link dim" target="_blank" rel="noopener noreferrer">Read on Substack →</a>
+        </article>
+      
+    </div>
+
+  
+
+
+</article>
+
+      </div>
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/ru/" >
+    &copy;  Daniel Neagaru 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

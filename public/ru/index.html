@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Даниэль Нягару – Хакер · Системный архитектор · Эксперт по автоматизации | Daniel Neagaru</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider">
+    <meta name="generator" content="Hugo 0.147.8">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Daniel Neagaru">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    <script src="/js/nav.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Daniel Neagaru",
+  "url": "https://neagaru.com/",
+  "image": "https://neagaru.com/images/daniel.png",
+  "sameAs": [
+    "https://github.com/danielonsecurity",
+    "https://www.linkedin.com/in/neagaru"
+  ],
+  "jobTitle": "Penetration Tester, Systems Architect",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Freelance / Independent"
+  },
+  "email": "mailto:daniel@neagaru.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hamburg",
+    "addressCountry": "DE"
+  }
+}
+</script>
+
+
+    
+      
+
+    
+
+    
+    
+      <link href="/ru/index.xml" rel="alternate" type="application/rss+xml" title="Daniel Neagaru" />
+      <link href="/ru/index.xml" rel="feed" type="application/rss+xml" title="Daniel Neagaru" />
+      
+    
+      <link rel="stylesheet" href="/css/custom.css">
+
+    
+      <link rel="canonical" href="http://localhost:1313/ru/">
+    
+      <link rel="me" href="https://www.wikidata.org/wiki/User:Neagaru" />
+    <meta property="og:url" content="http://localhost:1313/ru/">
+  <meta property="og:site_name" content="Daniel Neagaru">
+  <meta property="og:title" content="Даниэль Нягару – Хакер · Системный архитектор · Эксперт по автоматизации">
+  <meta property="og:description" content="Я разрабатываю и внедряю высокоэффективные решения в области наступательной безопасности (offensive security), отказоустойчивой инфраструктуры и автоматизации систем.
+Обладая более чем 15-летним опытом взлома и создания систем с самых основ, я помогаю организациям обнаруживать критические уязвимости, развертывать масштабируемую инфраструктуру и разрабатывать индивидуальные инструменты для решения их самых сложных технических задач.
+«Моя работа — это мост между низкоуровневой безопасностью, высокоуровневой стратегией и метафизикой времени».
+Давайте создадим нечто более быстрое, безопасное и умное. Запишитесь на консультацию.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Даниэль Нягару – Хакер · Системный архитектор · Эксперт по автоматизации">
+  <meta itemprop="description" content="Я разрабатываю и внедряю высокоэффективные решения в области наступательной безопасности (offensive security), отказоустойчивой инфраструктуры и автоматизации систем.
+Обладая более чем 15-летним опытом взлома и создания систем с самых основ, я помогаю организациям обнаруживать критические уязвимости, развертывать масштабируемую инфраструктуру и разрабатывать индивидуальные инструменты для решения их самых сложных технических задач.
+«Моя работа — это мост между низкоуровневой безопасностью, высокоуровневой стратегией и метафизикой времени».
+Давайте создадим нечто более быстрое, безопасное и умное. Запишитесь на консультацию.">
+  <meta itemprop="datePublished" content="2025-06-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-06-21T00:00:00+00:00">
+  <meta itemprop="wordCount" content="281">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Даниэль Нягару – Хакер · Системный архитектор · Эксперт по автоматизации">
+  <meta name="twitter:description" content="Я разрабатываю и внедряю высокоэффективные решения в области наступательной безопасности (offensive security), отказоустойчивой инфраструктуры и автоматизации систем.
+Обладая более чем 15-летним опытом взлома и создания систем с самых основ, я помогаю организациям обнаруживать критические уязвимости, развертывать масштабируемую инфраструктуру и разрабатывать индивидуальные инструменты для решения их самых сложных технических задач.
+«Моя работа — это мост между низкоуровневой безопасностью, высокоуровневой стратегией и метафизикой времени».
+Давайте создадим нечто более быстрое, безопасное и умное. Запишитесь на консультацию.">
+
+	<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+/>
+
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/banner.png');">
+    
+    <div class="bg-black-60">
+      
+<nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex items-center justify-between">
+    <a
+      href="/ru/"
+      class="f3 fw2 hover-white white-90 dib no-underline"
+      title="Daniel Neagaru Homepage"
+    >
+      
+      <img
+        src="/images/logo.png"
+        class="w100 mw5-ns"
+        alt="Daniel Neagaru"
+      />
+      
+    </a>
+
+    
+    <div class="dn db-l">
+      <ul class="flex items-center list pa0 ma0">
+        <li class="dib">
+<div class="relative dib lang-switcher">
+  
+  <button class="js-lang-toggle bg-transparent border-0 pa0 pointer">
+    
+      <span class="f3">🇷🇺</span>
+    
+  </button>
+
+  
+  <ul class="js-lang-menu absolute mt2 bg-black pa2 white shadow-5 dn z-999">
+    
+      <li class="mb1">
+        <a href="/en/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇺🇸</span>
+            
+            <span class="f6">English</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/de/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇩🇪</span>
+            
+            <span class="f6">Deutsch</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/ro/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇷🇴</span>
+            
+            <span class="f6">Română</span>
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/"
+            title="Главная"
+          >
+            Главная 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 desktop-menu-has-children"
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/about/"
+            title="Обо мне"
+          >
+            Обо мне <span
+              aria-hidden="true"
+              class="ml1"
+              >▾</span
+            >
+          </a>
+          
+          <ul class="desktop-submenu list pa0 ma0">
+            
+            <li class="f6 fw4">
+              <a
+                class="db pa2 hover-white white-90 no-underline"
+                href="/ru/skills/"
+                title="Навыки"
+              >
+                Навыки
+              </a>
+            </li>
+            
+            <li class="f6 fw4">
+              <a
+                class="db pa2 hover-white white-90 no-underline"
+                href="/ru/companies/"
+                title="Компании"
+              >
+                Компании
+              </a>
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/services/"
+            title="Услуги"
+          >
+            Услуги 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/portfolio/"
+            title="Портфолио"
+          >
+            Портфолио 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/blog/"
+            title="Блог"
+          >
+            Блог 
+          </a>
+          
+        </li>
+        
+        <li
+          class="f5 fw4 dib relative ml4 "
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="/ru/contact/"
+            title="Контакт"
+          >
+            Контакт 
+          </a>
+          
+        </li>
+         
+      </ul>
+    </div>
+
+    
+    <button
+      id="menu-toggle"
+      class="db dn-l bn bg-transparent white-90 f3 pointer"
+      aria-label="Open Menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu-panel"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+
+<div id="mobile-menu-panel" class="mobile-menu-panel">
+  <div class="flex justify-end pa3">
+    <button
+      id="menu-close"
+      class="bn bg-transparent white-90 f2 pointer"
+      aria-label="Close Menu"
+    >
+      ×
+    </button>
+  </div>
+  <div class="pa4">
+    <ul class="list pa0 ma0">
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/"
+          title="Главная"
+        >
+          Главная
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/about/"
+          title="Обо мне"
+        >
+          Обо мне
+        </a>
+        
+        <ul class="list pa0 ma0 mt2 pl3">
+          
+          <li class="mb3">
+            <a
+              class="f5 white-80 no-underline"
+              href="/ru/skills/"
+              title="Навыки"
+            >
+              Навыки
+            </a>
+          </li>
+          
+          <li class="mb3">
+            <a
+              class="f5 white-80 no-underline"
+              href="/ru/companies/"
+              title="Компании"
+            >
+              Компании
+            </a>
+          </li>
+          
+        </ul>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/services/"
+          title="Услуги"
+        >
+          Услуги
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/portfolio/"
+          title="Портфолио"
+        >
+          Портфолио
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/blog/"
+          title="Блог"
+        >
+          Блог
+        </a>
+        
+      </li>
+      
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="/ru/contact/"
+          title="Контакт"
+        >
+          Контакт
+        </a>
+        
+      </li>
+      
+    </ul>
+    <div class="mt5">
+<div class="relative dib lang-switcher">
+  
+  <button class="js-lang-toggle bg-transparent border-0 pa0 pointer">
+    
+      <span class="f3">🇷🇺</span>
+    
+  </button>
+
+  
+  <ul class="js-lang-menu absolute mt2 bg-black pa2 white shadow-5 dn z-999">
+    
+      <li class="mb1">
+        <a href="/en/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇺🇸</span>
+            
+            <span class="f6">English</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/de/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇩🇪</span>
+            
+            <span class="f6">Deutsch</span>
+          
+        </a>
+      </li>
+    
+      <li class="mb1">
+        <a href="/ro/" class="white no-underline flex items-center">
+          
+            
+              <span class="f3 mr2">🇷🇴</span>
+            
+            <span class="f6">Română</span>
+          
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</div>
+    <div class="mt4">
+      
+    </div>
+  </div>
+</div>
+<div id="menu-overlay" class="menu-overlay"></div>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          Даниэль Нягару – Хакер · Системный архитектор · Эксперт по автоматизации
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main>
+      <div class="content-wrapper">
+         <p>Я разрабатываю и внедряю высокоэффективные решения в области <strong>наступательной безопасности (offensive security), отказоустойчивой инфраструктуры и автоматизации систем</strong>.</p>
+<p>Обладая более чем 15-летним опытом взлома и создания систем с самых основ, я помогаю организациям обнаруживать критические уязвимости, развертывать масштабируемую инфраструктуру и разрабатывать индивидуальные инструменты для решения их самых сложных технических задач.</p>
+<blockquote>
+<p>«Моя работа — это мост между низкоуровневой безопасностью, высокоуровневой стратегией и метафизикой времени».</p></blockquote>
+<p><strong>Давайте создадим нечто более быстрое, безопасное и умное. <a href="/ru/contact/">Запишитесь на консультацию</a>.</strong></p>
+<hr>
+<h3 id="ключевые-компетенции">Ключевые компетенции</h3>
+<ul>
+<li>
+<p>🔐 <strong>Наступательная безопасность:</strong> Я обнаруживаю уязвимости, которые упускают другие. От сложных процессов веб-аутентификации (OAuth, SAML) и логических ошибок в API до низкоуровневого обратного инжиниринга и аппаратных эксплойтов. Я нахожу пробелы в защите до того, как это сделают злоумышленники.</p>
+</li>
+<li>
+<p>⚙️ <strong>Системная архитектура и автоматизация:</strong> Я создаю безопасные, долговечные системы с высокой доступностью. Моя экспертиза охватывает усиление защиты Linux (hardening), безопасность конвейеров CI/CD (GitLab CI, Docker) и кластерную инфраструктуру (GlusterFS, Galera, HAProxy).</p>
+</li>
+<li>
+<p>🧠 <strong>Разработка инструментов и исследования:</strong> Я создаю уникальные решения для нестандартных проблем. К ним относятся фреймворк <a href="https://github.com/OWASP/raider">OWASP Raider</a> для тестирования аутентификации и система <a href="https://utms.io/">UTMS</a> для программируемого моделирования времени, обе основаны на Python и LISP.</p>
+</li>
+</ul>
+<hr>
+<h3 id="почему-стоит-работать-со-мной">Почему стоит работать со мной?</h3>
+<ul>
+<li><strong>Доказанная эффективность:</strong> Обнаружил множество CVE с высоким уровнем воздействия в широко используемом ПО с открытым исходным кодом и коммерческих продуктах.</li>
+<li><strong>Мышление создателя:</strong> Я не просто нахожу проблемы; я понимаю, как их исправлять, потому что я сам создавал и администрировал подобные системы.</li>
+<li><strong>Фундаментальный подход:</strong> Глубокая экспертиза в ключевых технологиях (Linux, TCP/IP, C, Python) позволяет мне решать проблемы, которые нельзя устранить с помощью готовых инструментов.</li>
+<li><strong>Широкий спектр навыков:</strong> Моя работа охватывает всё: от пентестинга веб-приложений до анализа кастомных прошивок и аппаратного взлома.</li>
+</ul>
+<hr>
+<p><strong>Готовы решить ваши самые важные задачи в области безопасности или автоматизации?</strong><br>
+<a href="/ru/contact/">Свяжитесь со мной, чтобы начать →</a></p>
+  <div style="text-align: center; margin-top: 3rem">
+  <a
+    href="https://cal.com/neagaru"
+    class="f4 fw6 pv3 ph4 bg-blue white no-underline br2 hover-bg-dark-blue"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Book a Free Consultation
+  </a>
+</div>
+  
+      </div>
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/ru/" >
+    &copy;  Daniel Neagaru 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

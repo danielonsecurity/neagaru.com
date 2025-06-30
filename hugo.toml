@@ -1,9 +1,9 @@
-baseURL = 'https://neagaru.com/'
-languageCode = 'en-us'
-title = 'Daniel Neagaru'
+baseURL = "https://neagaru.com/"
+title = "Daniel Neagaru"
 theme = "neagaru"
 enableRobotsTXT = true
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [params]
   description = "Security audits, systems automation, and time modeling – by Daniel Neagaru, penetration tester and creator of UTMS and OWASP Raider"
@@ -11,57 +11,213 @@ defaultContentLanguage = "en"
   site_logo = "images/logo.png"
 
 [outputs]
-  home = ["HTML", "RSS", "SITEMAP"]
+  home = ["HTML", "RSS"]
+  sitemap = ["sitemap"]
 
-[menu]
+[languages]
 
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
     weight = 1
+    contentDir = "content/en"
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    [languages.en.params]
+      flag = "🇺🇸"
+
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10 
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 20 
+      [[languages.en.menu.main]]
+        identifier = "services"
+        name = "Services"
+        url = "/services/"
+        weight = 30 
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio/"
+        weight = 40 
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 50 
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact/"
+        weight = 60 
+      
+      [[languages.en.menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "/skills/"
+        parent = "about" 
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "companies"
+        name = "Companies"
+        url = "/companies/"
+        parent = "about" 
+        weight = 2
+
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
     weight = 2
+    contentDir = "content/de"
+    [languages.de.params]
+      flag = "🇩🇪"
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "home"
+        name = "Startseite"
+        url = "/"
+        weight = 10
+      [[languages.de.menu.main]]
+        identifier = "about"
+        name = "Über mich"
+        url = "/about/"
+        weight = 20
+      [[languages.de.menu.main]]
+        identifier = "services"
+        name = "Dienstleistungen"
+        url = "/services/"
+        weight = 30
+      [[languages.de.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio/"
+        weight = 40
+      [[languages.de.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 50
+      [[languages.de.menu.main]]
+        identifier = "contact"
+        name = "Kontakt"
+        url = "/contact/"
+        weight = 60
+      [[languages.de.menu.main]]
+        identifier = "skills"
+        name = "Fähigkeiten"
+        url = "/skills/"
+        parent = "about"
+        weight = 1
+      [[languages.de.menu.main]]
+        identifier = "companies"
+        name = "Unternehmen"
+        url = "/companies/"
+        parent = "about"
+        weight = 2
 
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    parent = "about"
-    weight = 1
-
-  [[menu.main]]
-    identifier = "skills"
-    name = "Skills"
-    url = "/skills/"
-    parent = "about"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "companies"
-    name = "Companies"
-    url = "/companies/"
-    parent = "about"
+  [languages.ro]
+    languageName = "Română"
+    languageCode = "ro"
     weight = 3
+    contentDir = "content/ro"
+    [languages.ro.params]
+      flag = "🇷🇴"
+    [languages.ro.menu]
+      [[languages.ro.menu.main]]
+        identifier = "home"
+        name = "Acasă"
+        url = "/"
+        weight = 10
+      [[languages.ro.menu.main]]
+        identifier = "about"
+        name = "Despre"
+        url = "/about/"
+        weight = 20
+      [[languages.ro.menu.main]]
+        identifier = "services"
+        name = "Servicii"
+        url = "/services/"
+        weight = 30
+      [[languages.ro.menu.main]]
+        identifier = "portfolio"
+        name = "Portofoliu"
+        url = "/portfolio/"
+        weight = 40
+      [[languages.ro.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 50
+      [[languages.ro.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact/"
+        weight = 60
+      [[languages.ro.menu.main]]
+        identifier = "skills"
+        name = "Competențe"
+        url = "/skills/"
+        parent = "about"
+        weight = 1
+      [[languages.ro.menu.main]]
+        identifier = "companies"
+        name = "Companii"
+        url = "/companii/"
+        parent = "about"
+        weight = 2
 
-  [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "/services/"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "portfolio"
-    name = "Portfolio"
-    url = "/portfolio/"
+  [languages.ru]
+    languageName = "Русский"
+    languageCode = "ru"
     weight = 4
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 5
+    contentDir = "content/ru"
+    [languages.ru.params]
+      flag = "🇷🇺"
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        identifier = "home"
+        name = "Главная"
+        url = "/"
+        weight = 10
+      [[languages.ru.menu.main]]
+        identifier = "about"
+        name = "Обо мне"
+        url = "/about/"
+        weight = 20
+      [[languages.ru.menu.main]]
+        identifier = "services"
+        name = "Услуги"
+        url = "/services/"
+        weight = 30
+      [[languages.ru.menu.main]]
+        identifier = "portfolio"
+        name = "Портфолио"
+        url = "/portfolio/"
+        weight = 40
+      [[languages.ru.menu.main]]
+        identifier = "blog"
+        name = "Блог"
+        url = "/blog/"
+        weight = 50
+      [[languages.ru.menu.main]]
+        identifier = "contact"
+        name = "Контакт"
+        url = "/contact/"
+        weight = 60
+      [[languages.ru.menu.main]]
+        identifier = "skills"
+        name = "Навыки"
+        url = "/skills/"
+        parent = "about"
+        weight = 1
+      [[languages.ru.menu.main]]
+        identifier = "companies"
+        name = "Компании"
+        url = "/companies/"
+        parent = "about"
+        weight = 2

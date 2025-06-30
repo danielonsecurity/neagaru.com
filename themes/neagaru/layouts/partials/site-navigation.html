@@ -1,44 +1,118 @@
+<!-- Main navigation container -->
 <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline">
+  <div class="flex items-center justify-between">
+    <a
+      href="{{ .Site.Home.RelPermalink }}"
+      class="f3 fw2 hover-white white-90 dib no-underline"
+      title="{{ .Site.Title }} Homepage"
+    >
       {{ with .Site.Params.site_logo }}
-        <img src="{{ urls.RelURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
-      {{ else }}
-        {{ .Site.Title }}
-      {{ end }}
+      <img
+        src="{{ urls.RelURL . }}"
+        class="w100 mw5-ns"
+        alt="{{ $.Site.Title }}"
+      />
+      {{ else }} {{ .Site.Title }} {{ end }}
     </a>
 
-    <button id="menu-toggle" class="db dn-l bn bg-transparent white-90 f3 pointer" aria-label="Open Menu" aria-expanded="false" aria-controls="main-menu">
+    <!-- Desktop Navigation (Visible on large screens) -->
+    <div class="dn db-l">
+      <ul class="flex items-center list pa0 ma0">
+        <li class="dib">{{ partials.Include "i18nlist.html" . }}</li>
+        {{ range .Site.Menus.main }}
+        <li
+          class="f5 fw4 dib relative ml4 {{ if .HasChildren }}desktop-menu-has-children{{ end }}"
+        >
+          <a
+            class="hover-white white-90 no-underline pb1"
+            href="{{ relLangURL .URL }}"
+            title="{{ .Name }}"
+          >
+            {{ .Name }} {{ if .HasChildren }}<span
+              aria-hidden="true"
+              class="ml1"
+              >▾</span
+            >{{ end }}
+          </a>
+          {{ if .HasChildren }}
+          <ul class="desktop-submenu list pa0 ma0">
+            {{ range .Children }}
+            <li class="f6 fw4">
+              <a
+                class="db pa2 hover-white white-90 no-underline"
+                href="{{ relLangURL .URL }}"
+                title="{{ .Name }}"
+              >
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </li>
+        {{ end }} {{ with .Site.Params.social }} {{ partials.IncludeCached
+        "social/follow.html" . }} {{ end }}
+      </ul>
+    </div>
+
+    <!-- Mobile Menu Burger (Visible on small screens) -->
+    <button
+      id="menu-toggle"
+      class="db dn-l bn bg-transparent white-90 f3 pointer"
+      aria-label="Open Menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu-panel"
+    >
       <i class="fas fa-bars"></i>
     </button>
-    <div id="main-menu" class="dn flex-l items-center">
-      {{ partials.Include "i18nlist.html" . }}
-      {{ if .Site.Menus.main }}
-        <ul class="main-menu-ul {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
-          {{ range .Site.Menus.main }}
-            <li class="list f5 f4-ns fw4 db dib-l {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3-l" }} relative {{ if .HasChildren }}menu-item-has-children{{ end }}">
-              <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
-                {{ .Name }}
-                {{ if .HasChildren }}
-                  <span aria-hidden="true" class="ml1 dn dib-l">▾</span>
-                {{ end }}
-              </a>
-              {{ if .HasChildren }}
-                <ul class="submenu bg-black-90 pa3">
-                  {{ range .Children }}
-                    <li class="list f6 fw4 mb2">
-                      <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
-                        {{ .Name }}
-                      </a>
-                    </li>
-                  {{ end }}
-                </ul>
-              {{ end }}
-            </li>
-          {{ end }}
-        </ul>
-      {{ end }}
-      {{ partials.IncludeCached "social/follow.html" . }}
-    </div>
   </div>
 </nav>
+
+<!-- Mobile Menu Panel (Hidden by default, slides in) -->
+<div id="mobile-menu-panel" class="mobile-menu-panel">
+  <div class="flex justify-end pa3">
+    <button
+      id="menu-close"
+      class="bn bg-transparent white-90 f2 pointer"
+      aria-label="Close Menu"
+    >
+      ×
+    </button>
+  </div>
+  <div class="pa4">
+    <ul class="list pa0 ma0">
+      {{ range .Site.Menus.main }}
+      <li class="mb4">
+        <a
+          class="f4 white-90 no-underline"
+          href="{{ relLangURL .URL }}"
+          title="{{ .Name }}"
+        >
+          {{ .Name }}
+        </a>
+        {{ if .HasChildren }}
+        <ul class="list pa0 ma0 mt2 pl3">
+          {{ range .Children }}
+          <li class="mb3">
+            <a
+              class="f5 white-80 no-underline"
+              href="{{ relLangURL .URL }}"
+              title="{{ .Name }}"
+            >
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    <div class="mt5">{{ partials.Include "i18nlist.html" . }}</div>
+    <div class="mt4">
+      {{ with .Site.Params.social }} {{ partials.IncludeCached
+      "social/follow.html" . }} {{ end }}
+    </div>
+  </div>
+</div>
+<div id="menu-overlay" class="menu-overlay"></div>
