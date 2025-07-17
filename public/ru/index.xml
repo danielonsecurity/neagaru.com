@@ -23,6 +23,13 @@
       <description>&lt;h2 id=&#34;-проекты&#34;&gt;💼 Проекты&lt;/h2&gt;&#xA;&lt;h3 id=&#34;utms-universal-time-modeling-system&#34;&gt;&lt;a href=&#34;https://utms.io/&#34;&gt;UTMS (Universal Time Modeling System)&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Радикально новый подход к моделированию времени, привычек и задач. Система настраивается с помощью программируемых LISP-сущностей и отслеживает не только задачи, но и контекст, условия, прерывания и возникающие закономерности. Разработана для расширения контроля человека над временем. Ядро написано на Python, конфигурация — на Hy (LISP на Python), фронтенд — на React + vite + TypeScript.&lt;/p&gt;&#xA;&lt;h3 id=&#34;owasp-raider&#34;&gt;&lt;a href=&#34;https://github.com/OWASP/raider&#34;&gt;OWASP Raider&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Фреймворк для тестирования веб-аутентификации, предназначенный для исследования сложных рабочих процессов HTTP-сессий. Создан на Python, настраивается с помощью Hy (LISP на Python). Представлен на нескольких конференциях по безопасности. Raider моделирует аутентификацию как программируемую конечный автомат, позволяя исследователям безопасности создавать сценарии взаимодействий с редиректами, CSRF-токенами и многоэтапными входами.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Politica de confidențialitate</title>
+      <link>http://localhost:1313/ru/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/privacy/</guid>
+      <description>&lt;h2 id=&#34;politica-de-confidențialitate&#34;&gt;Politica de confidențialitate&lt;/h2&gt;&#xA;&lt;p&gt;Ești în siguranță aici. Confidențialitatea este un drept, nu un privilegiu.&lt;/p&gt;&#xA;&lt;p&gt;Nu vreau să știu cine ești. Nu mă interesează ce faci aici. Acest site este un loc liniștit — fără supraveghere, fără pixeli de urmărire, fără amprentare digitală, fără trucuri murdare.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fără cookie-uri.&lt;/li&gt;&#xA;&lt;li&gt;Fără analiză.&lt;/li&gt;&#xA;&lt;li&gt;Fără reclame.&lt;/li&gt;&#xA;&lt;li&gt;Fără butoane de social media, pixeli sau trackere ascunse.&lt;/li&gt;&#xA;&lt;li&gt;Fără profilare comportamentală.&lt;/li&gt;&#xA;&lt;li&gt;Fără scripturi ascunse care să te spioneze.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Singurele date colectate sunt cele anonime, pentru performanță și securitate, gestionate de &lt;strong&gt;Cloudflare&lt;/strong&gt;, care protejează site-ul de abuzuri. Nu pot dezactiva asta, dar nu te identifică și nu este folosit pentru marketing sau profilare.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Компании</title>
       <link>http://localhost:1313/ru/companies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,6 +63,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/services/</guid>
       <description>&lt;h1 id=&#34;мои-услуги&#34;&gt;Мои услуги&lt;/h1&gt;&#xA;&lt;p&gt;Я предлагаю ряд специализированных услуг, предназначенных для решения сложных задач в области безопасности, инфраструктуры и автоматизации. Мой подход — практический, глубоко технический и адаптированный к вашему конкретному контексту, независимо от того, являетесь ли вы стартапом, растущей компанией или мировым предприятием.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-наступательная-безопасность-и-тестирование-на-проникновение&#34;&gt;🔐 Наступательная безопасность и тестирование на проникновение&lt;/h3&gt;&#xA;&lt;p&gt;Выйдите за рамки автоматизированных сканеров с помощью углубленных ручных оценок безопасности, имитирующих реальных злоумышленников. Я предоставляю четкие отчеты с практическими рекомендациями и поддерживаю вашу команду в процессе устранения уязвимостей.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Юридическая информация</title>
+      <link>http://localhost:1313/ru/impressum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/impressum/</guid>
+      <description>&lt;h2 id=&#34;юридическая-информация&#34;&gt;Юридическая информация&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;В соответствии с § 5 TMG (Закон Германии о телемедиа):&lt;/strong&gt;&lt;br&gt;&#xA;Даниэль Неагару&lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:daniel@neagaru.com&#34;&gt;daniel@neagaru.com&lt;/a&gt;&lt;br&gt;&#xA;Телефон: &lt;a href=&#34;#ZgotmplZ&#34;&gt;+49 176 5689 2946&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-адрес-предоставляется-по-запросу&#34;&gt;⚠️ Адрес предоставляется по запросу&lt;/h3&gt;&#xA;&lt;p&gt;По соображениям безопасности мой почтовый адрес не публикуется здесь.&lt;br&gt;&#xA;В прошлом мой домашний адрес использовался преступниками для угроз и запугивания.&lt;/p&gt;&#xA;&lt;p&gt;Я понимаю юридические требования § 5 TMG и ищу способ соблюсти закон, сохранив при этом личную безопасность.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Компетентные органы, деловые партнёры и уполномоченные лица&lt;/strong&gt; могут запросить адрес по email.&lt;br&gt;&#xA;Пожалуйста, свяжитесь со мной через &lt;a href=&#34;mailto:daniel@neagaru.com&#34;&gt;daniel@neagaru.com&lt;/a&gt;, указав юридическое основание.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

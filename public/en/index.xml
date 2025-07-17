@@ -44,11 +44,25 @@
       <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m open to collaboration and contribution across domains where technology, autonomy, and systems thinking intersect.&lt;/p&gt;&#xA;&lt;p&gt;If you’re looking for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Freelance or retained &lt;strong&gt;security consulting&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Help with &lt;strong&gt;automation&lt;/strong&gt;, &lt;strong&gt;time modeling&lt;/strong&gt;, or building weird tools&lt;/li&gt;&#xA;&lt;li&gt;A technical &lt;strong&gt;partner&lt;/strong&gt; for a project or product idea&lt;/li&gt;&#xA;&lt;li&gt;A &lt;strong&gt;speaker&lt;/strong&gt; for your conference, podcast, or internal event&lt;/li&gt;&#xA;&lt;li&gt;Custom &lt;strong&gt;training&lt;/strong&gt; or workshops on security, automation, or org design&lt;/li&gt;&#xA;&lt;li&gt;Exploratory conversations about &lt;strong&gt;research&lt;/strong&gt;, &lt;strong&gt;ethics&lt;/strong&gt;, or &lt;strong&gt;long-term systems&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;— I’m interested.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Legal Disclosure</title>
+      <link>http://localhost:1313/en/impressum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/impressum/</guid>
+      <description>&lt;h2 id=&#34;legal-notice&#34;&gt;Legal Notice&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;In accordance with § 5 TMG (German Telemedia Act):&lt;/strong&gt;&lt;br&gt;&#xA;Daniel Neagaru&lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:daniel@neagaru.com&#34;&gt;daniel@neagaru.com&lt;/a&gt;&lt;br&gt;&#xA;Phone: &lt;a href=&#34;#ZgotmplZ&#34;&gt;+49 176 5689 2946&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-address-available-on-request&#34;&gt;⚠️ Address Available on Request&lt;/h3&gt;&#xA;&lt;p&gt;For security reasons, my legal mailing address is not published here.&lt;br&gt;&#xA;My private address has previously been abused by criminal actors to intimidate and threaten me.&lt;/p&gt;&#xA;&lt;p&gt;I am aware of the requirements under § 5 TMG and am working on a solution that satisfies legal obligations while protecting my safety.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>My Blog</title>
       <link>http://localhost:1313/en/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/blog/</guid>
       <description>&lt;p&gt;Here are the latest posts from my Substack newsletter.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/en/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/privacy/</guid>
+      <description>&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;re safe here. Privacy is a right, not a feature.&lt;/p&gt;&#xA;&lt;p&gt;I don’t want to know who you are. I don’t care what you’re doing here. This website is a quiet place — free of surveillance, tracking pixels, fingerprinting, and dark patterns.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;No cookies.&lt;/li&gt;&#xA;&lt;li&gt;No analytics.&lt;/li&gt;&#xA;&lt;li&gt;No ads.&lt;/li&gt;&#xA;&lt;li&gt;No social media buttons, pixels, or embedded trackers.&lt;/li&gt;&#xA;&lt;li&gt;No behavioral profiling.&lt;/li&gt;&#xA;&lt;li&gt;No hidden scripts spying on you.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The only data collected is anonymized performance and threat detection info handled by &lt;strong&gt;Cloudflare&lt;/strong&gt;, which sits in front of this website to protect it from abuse. I can&amp;rsquo;t disable it, but it doesn’t identify you and isn’t used for marketing or profiling.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Services</title>

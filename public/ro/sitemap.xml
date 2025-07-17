@@ -2,29 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ro/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://localhost:1313/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ro"
-                href="http://localhost:1313/ro/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ro/skills/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -46,6 +23,29 @@
                 rel="alternate"
                 hreflang="ro"
                 href="http://localhost:1313/ro/skills/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ro/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="http://localhost:1313/ro/"
                 />
   </url><url>
     <loc>http://localhost:1313/ro/portfolio/</loc>
@@ -179,6 +179,50 @@
                 rel="alternate"
                 hreflang="ro"
                 href="http://localhost:1313/ro/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ro/impressum/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="http://localhost:1313/ro/impressum/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ro/privacy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="http://localhost:1313/ro/privacy/"
                 />
   </url><url>
     <loc>http://localhost:1313/ro/services/</loc>

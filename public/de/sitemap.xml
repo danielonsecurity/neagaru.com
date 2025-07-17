@@ -93,6 +93,28 @@
                 href="http://localhost:1313/de/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/de/privacy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="http://localhost:1313/ro/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/privacy/"
+                />
+  </url><url>
     <loc>http://localhost:1313/de/services/</loc>
     <xhtml:link
                 rel="alternate"
@@ -113,6 +135,28 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/services/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/impressum/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="http://localhost:1313/ro/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/impressum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/impressum/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/contact/</loc>

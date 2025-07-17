@@ -1,0 +1,5 @@
+- id: footer_privacy_html
+  translation: 'Diese Website verwendet keine Cookies und verfolgt Sie nicht. <a class="white-60 underline-hover" href="/%s/privacy">Datenschutzerklärung</a>'
+
+- id: footer_impressum
+  translation: 'Impressum'
