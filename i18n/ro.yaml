@@ -1,5 +1,5 @@
 - id: footer_privacy_html
-  translation: 'Acest site nu folosește cookie-uri și nu vă urmărește. <a class="white-60 underline-hover" href="/%s/privacy">Politica de confidențialitate</a>'
+  translation: 'Acest site nu folosește cookie-uri și nu vă urmărește. <a class="white-60 underline-hover" href="/ro/privacy">Politica de confidențialitate</a>'
 
 - id: footer_impressum
   translation: 'Impressum'

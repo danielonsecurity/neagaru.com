@@ -1,5 +1,5 @@
 - id: footer_privacy_html
-  translation: 'Этот сайт не использует cookies и не отслеживает вас. <a class="white-60 underline-hover" href="/%s/privacy">Политика конфиденциальности</a>'
+  translation: 'Этот сайт не использует cookies и не отслеживает вас. <a class="white-60 underline-hover" href="/ru/privacy">Политика конфиденциальности</a>'
 
 - id: footer_impressum
   translation: 'Impressum'
