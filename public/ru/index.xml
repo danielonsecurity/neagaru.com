@@ -58,6 +58,13 @@
       <description>&lt;img src=&#34;http://localhost:1313/images/daniel.png&#34; alt=&#34;Daniel Neagaru&#34; width=&#34;500&#34; style=&#34;border-radius: 50%;&#34;&gt;&#xA;&#xA;&lt;h1 id=&#34;daniel-neagaru&#34;&gt;Daniel Neagaru&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Старший специалист по тестированию на проникновение · Системный архитектор · Создатель UTMS&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Я практикующий инженер по безопасности и системный мыслитель с более чем 10-летним опытом взлома, создания и оптимизации систем — от уровня ядра до облака.&lt;/p&gt;&#xA;&lt;p&gt;Я работал с финтех-компаниями, транспортными платформами, государственными учреждениями и стартапами, помогая им выявлять критические уязвимости, создавать отказоустойчивую инфраструктуру и открывать принципиально новые способы моделирования времени, продуктивности и человеческих намерений.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-мои-убеждения&#34;&gt;🧠 Мои убеждения&lt;/h3&gt;&#xA;&lt;p&gt;Технологии должны расширять возможности, а не ограничивать.&lt;br&gt;&#xA;Безопасность должна быть незаметной, а не навязчивой.&lt;br&gt;&#xA;Время программируемо — и мы должны относиться к нему именно так.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Рекомендации</title>
+      <link>http://localhost:1313/ru/testimonials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/testimonials/</guid>
+      <description>&lt;h2 id=&#34;от-работодателей&#34;&gt;От работодателей&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Даниэль Неагару работал системным администратором с 2015 по 2017&#xA;год, отвечая за серверную и сетевую инфраструктуру, IT-безопасность,&#xA;оборудование и проведение пентестов. Проявлял инициативу, работал&#xA;самостоятельно и заслужил уважение коллег и руководства.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.linkedin.com/in/houman-gieleky-2a202520&#34;&gt;Houman Gieleky&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Founder &amp;amp; CEO, &lt;a href=&#34;https://www.toptranslation.com&#34;&gt;Toptranslation GmbH&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Я дважды работал с Даниэлем — в Anywr и Akkodis. Он сыграл ключевую&#xA;роль в создании нашего направления offensive security: от&#xA;инструментов и фреймворков до сертификаций. Его отчёты по&#xA;тестированию на проникновение всегда отличались высоким качеством и&#xA;ясностью. Я бы с удовольствием поработал с ним снова и рекомендую&#xA;его как технического лидера в области кибербезопасности.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Услуги</title>
       <link>http://localhost:1313/ru/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

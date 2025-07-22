@@ -225,6 +225,28 @@
                 href="http://localhost:1313/ru/about/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ru/testimonials/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/testimonials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/testimonials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="http://localhost:1313/ro/testimonials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/testimonials/"
+                />
+  </url><url>
     <loc>http://localhost:1313/ru/services/</loc>
     <xhtml:link
                 rel="alternate"

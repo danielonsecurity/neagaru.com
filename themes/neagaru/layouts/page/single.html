@@ -3,14 +3,14 @@
 <div class="flex-l mw9 center">
 
   <!-- Left Sidebar TOC -->
+  {{ if and (.TableOfContents) (not (eq .Params.toc false)) }}
   <aside class="dn db-l w-30 ph3 pv4 sticky top-2 h-100 overflow-y-auto" style="max-height: 90vh;">
-    {{ if .TableOfContents }}
       <nav class="toc lh-copy">
         <h2 class="f5 ttu tracked">Contents</h2>
         {{ .TableOfContents }}
       </nav>
-    {{ end }}
   </aside>
+  {{ end }}
 
   <!-- Main Content -->
   <div class="w-80-l w-100 ph3">

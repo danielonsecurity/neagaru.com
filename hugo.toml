@@ -68,6 +68,13 @@ defaultContentLanguageInSubdir = true
         url = "/companies/"
         parent = "about" 
         weight = 2
+      [[languages.en.menu.main]]
+        identifier = "testimonials"
+        name = "Testimonials"
+        url = "/testimonials/"
+        parent = "about"
+        weight = 3
+      
 
   [languages.de]
     languageName = "Deutsch"
@@ -119,6 +126,12 @@ defaultContentLanguageInSubdir = true
         url = "/companies/"
         parent = "about"
         weight = 2
+      [[languages.de.menu.main]]
+        identifier = "testimonials"
+        name = "Empfehlungen"
+        url = "/testimonials/"
+        parent = "about"
+        weight = 3
 
   [languages.ro]
     languageName = "Română"
@@ -170,6 +183,12 @@ defaultContentLanguageInSubdir = true
         url = "/companii/"
         parent = "about"
         weight = 2
+      [[languages.ro.menu.main]]
+        identifier = "testimonials"
+        name = "Recomandări"
+        url = "/testimonials/"
+        parent = "about"
+        weight = 3
 
   [languages.ru]
     languageName = "Русский"
@@ -221,3 +240,9 @@ defaultContentLanguageInSubdir = true
         url = "/companies/"
         parent = "about"
         weight = 2
+      [[languages.ru.menu.main]]
+        identifier = "testimonials"
+        name = "Рекомендации"
+        url = "/testimonials/"
+        parent = "about"
+        weight = 3

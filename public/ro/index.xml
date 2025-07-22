@@ -71,5 +71,12 @@
       <guid>http://localhost:1313/ro/services/</guid>
       <description>&lt;h1 id=&#34;serviciile-mele&#34;&gt;Serviciile Mele&lt;/h1&gt;&#xA;&lt;p&gt;Ofer o gamă de servicii specializate, concepute pentru a rezolva provocări complexe în securitate, infrastructură și automatizare. Abordarea mea este practică, profund tehnică și adaptată contextului dumneavoastră specific — indiferent dacă sunteți un startup, o companie în expansiune (scale-up) sau o întreprindere globală.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-securitate-ofensivă--penetration-testing&#34;&gt;🔐 Securitate Ofensivă &amp;amp; Penetration Testing&lt;/h3&gt;&#xA;&lt;p&gt;Mergeți dincolo de scanările automate cu evaluări de securitate manuale și aprofundate, care simulează atacatori reali. Ofer rapoarte clare, aplicabile și sprijin echipei dumneavoastră în procesul de remediere.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Testimoniale</title>
+      <link>http://localhost:1313/ro/testimonials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ro/testimonials/</guid>
+      <description>&lt;h2 id=&#34;de-la-angajatori&#34;&gt;De la angajatori&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Daniel Neagaru a lucrat ca administrator IT între 2015 și 2017,&#xA;ocupându-se de infrastructura de servere și rețea, securitate IT,&#xA;hardware și teste de penetrare. A demonstrat inițiativă, a lucrat&#xA;independent și a fost foarte apreciat de colegi și superiori.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.linkedin.com/in/houman-gieleky-2a202520&#34;&gt;Houman Gieleky&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Founder &amp;amp; CEO, &lt;a href=&#34;https://www.toptranslation.com&#34;&gt;Toptranslation GmbH&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Am avut ocazia să lucrez cu Daniel de două ori – la Anywr și&#xA;Akkodis. A fost o piesă-cheie în dezvoltarea portofoliului nostru de&#xA;securitate ofensivă, definind toolchain-urile, framework-urile de&#xA;testare și standardele de certificare. Rapoartele sale de testare au&#xA;fost întotdeauna peste așteptări, combinând precizia tehnică cu&#xA;claritatea. L-aș recomanda oricărei echipe care caută un lider&#xA;tehnic în securitate cibernetică.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
