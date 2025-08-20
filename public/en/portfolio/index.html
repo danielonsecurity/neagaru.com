@@ -74,7 +74,7 @@
   <meta itemprop="description" content="Selected highlights of my work, contributions, and public projects">
   <meta itemprop="datePublished" content="2025-06-20T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-06-20T00:00:00+00:00">
-  <meta itemprop="wordCount" content="549">
+  <meta itemprop="wordCount" content="645">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Portfolio">
   <meta name="twitter:description" content="Selected highlights of my work, contributions, and public projects">
@@ -511,12 +511,37 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
         <h2 id="-projects">💼 Projects</h2>
 <h3 id="utms-universal-time-modeling-system"><a href="https://utms.io/">UTMS (Universal Time Modeling System)</a></h3>
-<p>A radically new approach to time, habit, and task modeling. Configured
-with programmable LISP entities, it tracks not just tasks but context,
-conditions, interruptions, and emergent patterns. Designed to augment
-human agency over time. The core is written in Python, the
-configuration in Hy (LISP on Python), frontend in React + vite +
-TypeScript.</p>
+<p>A radically new framework for modeling time, habits, and tasks. Unlike
+conventional productivity apps, UTMS is programmable: built on a LISP
+(Hy) configuration layer, it models not just events but also context,
+conditions, interruptions, and emergent patterns. The goal: augment
+human agency over time through a composable, event-driven temporal
+system.</p>
+<p>UTMS is an ecosystem of interoperating components:</p>
+<ul>
+<li>
+<p><strong>Frontend (React + Vite + TypeScript)</strong> — <a href="https://github.com/danielonsecurity/utms-frontend">utms-frontend</a><br>
+Interactive web UI for visualizing and editing time entities.</p>
+</li>
+<li>
+<p><strong>Core Backend (Python + Hy)</strong> — <a href="https://github.com/danielonsecurity/utms-core">utms-core</a><br>
+Core engine, including programmable entities, CLI, agent/heartbeat, Arduino server, and evaluation system.</p>
+</li>
+<li>
+<p><strong>Mobile Companion (Kotlin, Android)</strong> — <a href="https://github.com/danielonsecurity/utms-android">utms-android</a><br>
+Native Android client for notifications, tracking, and mobile integration.</p>
+</li>
+<li>
+<p><strong>Hardware Integration (Arduino, C++)</strong> — <a href="https://github.com/danielonsecurity/utms-arduino">utms-arduino</a><br>
+Firmware for IoT/embedded interactions (sensors, clocks, physical anchors).</p>
+</li>
+</ul>
+<p>Additional tooling:</p>
+<ul>
+<li><strong>Glowbot (Python)</strong> — <a href="https://github.com/danielonsecurity/glowbot">glowbot</a><br>
+Smart-bulb automation library integrated into the UTMS environment.</li>
+</ul>
+<p>⚑ Several private components and experimental modules are in development but not yet public.</p>
 <h3 id="owasp-raider"><a href="https://github.com/OWASP/raider">OWASP Raider</a></h3>
 <p>A web authentication testing framework for exploring complex HTTP
 session workflows. Built in Python, configurable with Hy (LISP on

@@ -74,7 +74,7 @@
   <meta itemprop="description" content="Избранные примеры моих работ, вкладов и публичных проектов">
   <meta itemprop="datePublished" content="2025-06-20T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-06-20T00:00:00+00:00">
-  <meta itemprop="wordCount" content="561">
+  <meta itemprop="wordCount" content="654">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Портфолио">
   <meta name="twitter:description" content="Избранные примеры моих работ, вкладов и публичных проектов">
@@ -511,7 +511,39 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
         <h2 id="-проекты">💼 Проекты</h2>
 <h3 id="utms-universal-time-modeling-system"><a href="https://utms.io/">UTMS (Universal Time Modeling System)</a></h3>
-<p>Радикально новый подход к моделированию времени, привычек и задач. Система настраивается с помощью программируемых LISP-сущностей и отслеживает не только задачи, но и контекст, условия, прерывания и возникающие закономерности. Разработана для расширения контроля человека над временем. Ядро написано на Python, конфигурация — на Hy (LISP на Python), фронтенд — на React + vite + TypeScript.</p>
+<p>Радикально новая система для моделирования времени, привычек и
+задач. В отличие от обычных приложений для продуктивности, UTMS
+программируемая: построена на слое конфигурации LISP (Hy), моделирует
+не только события, но и контекст, условия, прерывания и возникающие
+закономерности. Цель: расширить человеческую способность управлять
+временем через композиционную, событийно-ориентированную временную
+систему.</p>
+<p>UTMS — это экосистема взаимосвязанных компонентов:</p>
+<ul>
+<li>
+<p><strong>Frontend (React + Vite + TypeScript)</strong> — <a href="https://github.com/danielonsecurity/utms-frontend">utms-frontend</a><br>
+Интерактивный веб-интерфейс для визуализации и редактирования временных сущностей.</p>
+</li>
+<li>
+<p><strong>Core Backend (Python + Hy)</strong> — <a href="https://github.com/danielonsecurity/utms-core">utms-core</a><br>
+Основной движок, включая программируемые сущности, CLI, агент/heartbeat, сервер Arduino и систему оценки.</p>
+</li>
+<li>
+<p><strong>Mobile Companion (Kotlin, Android)</strong> — <a href="https://github.com/danielonsecurity/utms-android">utms-android</a><br>
+Нативный Android-клиент для уведомлений, отслеживания и мобильной интеграции.</p>
+</li>
+<li>
+<p><strong>Hardware Integration (Arduino, C++)</strong> — <a href="https://github.com/danielonsecurity/utms-arduino">utms-arduino</a><br>
+Прошивка для взаимодействия с IoT/встроенными устройствами (сенсоры, часы, физические якори).</p>
+</li>
+</ul>
+<p>Дополнительные инструменты:</p>
+<ul>
+<li><strong>Glowbot (Python)</strong> — <a href="https://github.com/danielonsecurity/glowbot">glowbot</a><br>
+Библиотека автоматизации умных ламп, интегрированная в среду UTMS.</li>
+</ul>
+<p>⚑ Несколько приватных компонентов и экспериментальных модулей
+находятся в разработке и пока не доступны публично.</p>
 <h3 id="owasp-raider"><a href="https://github.com/OWASP/raider">OWASP Raider</a></h3>
 <p>Фреймворк для тестирования веб-аутентификации, предназначенный для исследования сложных рабочих процессов HTTP-сессий. Создан на Python, настраивается с помощью Hy (LISP на Python). Представлен на нескольких конференциях по безопасности. Raider моделирует аутентификацию как программируемую конечный автомат, позволяя исследователям безопасности создавать сценарии взаимодействий с редиректами, CSRF-токенами и многоэтапными входами.</p>
 <h3 id="bug-bounties-и-ответственное-раскрытие">Bug Bounties и Ответственное Раскрытие</h3>

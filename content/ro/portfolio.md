@@ -8,7 +8,36 @@ type: "page"
 ## 💼 Proiecte
 
 ### [UTMS (Universal Time Modeling System)](https://utms.io/)
-O abordare radical nouă a modelării timpului, obiceiurilor și sarcinilor. Configurat cu entități programabile LISP, urmărește nu doar sarcinile, ci și contextul, condițiile, întreruperile și modelele emergente. Proiectat pentru a spori controlul uman asupra timpului. Nucleul este scris în Python, configurarea în Hy (LISP pe Python), frontend-ul în React + vite + TypeScript.
+
+Un cadru radical nou pentru modelarea timpului, obiceiurilor și
+sarcinilor. Spre deosebire de aplicațiile convenționale de
+productivitate, UTMS este programabil: construit pe un strat de
+configurare LISP (Hy), modelează nu doar evenimentele, ci și
+contextul, condițiile, întreruperile și tiparele emergente. Scopul:
+augmentarea agenției umane asupra timpului printr-un sistem temporal
+modular și orientat pe evenimente.
+
+UTMS este un ecosistem de componente interoperabile:
+
+- **Frontend (React + Vite + TypeScript)** — [utms-frontend](https://github.com/danielonsecurity/utms-frontend)  
+  Interfață web interactivă pentru vizualizarea și editarea entităților temporale.
+
+- **Core Backend (Python + Hy)** — [utms-core](https://github.com/danielonsecurity/utms-core)  
+  Motorul principal, incluzând entități programabile, CLI, agent/heartbeat, server Arduino și sistem de evaluare.
+
+- **Mobile Companion (Kotlin, Android)** — [utms-android](https://github.com/danielonsecurity/utms-android)  
+  Client nativ Android pentru notificări, tracking și integrare mobilă.
+
+- **Hardware Integration (Arduino, C++)** — [utms-arduino](https://github.com/danielonsecurity/utms-arduino)  
+  Firmware pentru interacțiuni IoT/embedded (senzori, ceasuri, ancore fizice).
+
+Instrumente suplimentare:
+
+- **Glowbot (Python)** — [glowbot](https://github.com/danielonsecurity/glowbot)  
+  Bibliotecă de automatizare pentru becuri inteligente, integrată în mediul UTMS.
+
+⚑ Mai multe componente private și module experimentale sunt în dezvoltare, dar nu sunt încă publice.
+
 
 ### [OWASP Raider](https://github.com/OWASP/raider)
 Un framework de testare a autentificării web pentru explorarea fluxurilor complexe de sesiune HTTP. Construit în Python, configurabil cu Hy (LISP pe Python). Prezentat la mai multe conferințe de securitate. Raider modelează autentificarea ca o mașină de stări programabilă, permițând cercetătorilor în securitate să scripteze interacțiuni complexe ce implică redirecționări, token-uri CSRF și autentificări în mai mulți pași.

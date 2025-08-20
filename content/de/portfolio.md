@@ -8,7 +8,37 @@ type: "page"
 ## 💼 Projekte
 
 ### [UTMS (Universal Time Modeling System)](https://utms.io/)
-Ein radikal neuer Ansatz zur Modellierung von Zeit, Gewohnheiten und Aufgaben. Konfiguriert mit programmierbaren LISP-Entitäten, verfolgt es nicht nur Aufgaben, sondern auch Kontext, Bedingungen, Unterbrechungen und emergente Muster. Entwickelt, um die menschliche Handlungsfähigkeit über die Zeit zu erweitern. Der Kern ist in Python geschrieben, die Konfiguration in Hy (LISP auf Python), das Frontend in React + vite + TypeScript.
+
+Ein radikal neues Framework zur Modellierung von Zeit, Gewohnheiten
+und Aufgaben. Anders als herkömmliche Produktivitäts-Apps ist UTMS
+programmierbar: aufgebaut auf einer LISP-(Hy)-Konfigurationsschicht,
+modelliert es nicht nur Ereignisse, sondern auch Kontext, Bedingungen,
+Unterbrechungen und emergente Muster. Ziel: die menschliche
+Handlungsfähigkeit über Zeit durch ein komponierbares,
+ereignisgesteuertes Zeitsystem zu erweitern.
+
+UTMS ist ein Ökosystem interoperierender Komponenten:
+
+- **Frontend (React + Vite + TypeScript)** — [utms-frontend](https://github.com/danielonsecurity/utms-frontend)  
+  Interaktive Weboberfläche zur Visualisierung und Bearbeitung von Zeiteinheiten.
+
+- **Core Backend (Python + Hy)** — [utms-core](https://github.com/danielonsecurity/utms-core)  
+  Kern-Engine, inkl. programmierbarer Entitäten, CLI, Agent/Heartbeat, Arduino-Server und Evaluierungssystem.
+
+- **Mobile Companion (Kotlin, Android)** — [utms-android](https://github.com/danielonsecurity/utms-android)  
+  Native Android-App für Benachrichtigungen, Tracking und mobile Integration.
+
+- **Hardware-Integration (Arduino, C++)** — [utms-arduino](https://github.com/danielonsecurity/utms-arduino)  
+  Firmware für IoT-/Embedded-Interaktionen (Sensoren, Uhren, physische Anker).
+
+Zusätzliche Tools:
+
+- **Glowbot (Python)** — [glowbot](https://github.com/danielonsecurity/glowbot)  
+  Smart-Bulb-Automatisierungsbibliothek, integriert in die UTMS-Umgebung.
+
+⚑ Mehrere private Komponenten und experimentelle Module befinden sich
+in der Entwicklung, sind aber noch nicht öffentlich.
+
 
 ### [OWASP Raider](https://github.com/OWASP/raider)
 Ein Test-Framework für Web-Authentifizierung zur Erkundung komplexer HTTP-Sitzungsabläufe. In Python erstellt, konfigurierbar mit Hy (LISP auf Python). Präsentiert auf mehreren Sicherheitskonferenzen. Raider modelliert Authentifizierung als programmierbare Zustandsmaschine, die es Sicherheitsforschern ermöglicht, Interaktionen über Weiterleitungen, CSRF-Token und mehrstufige Anmeldungen hinweg zu skripten.

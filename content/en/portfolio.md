@@ -8,12 +8,35 @@ type: "page"
 ## 💼 Projects
 
 ### [UTMS (Universal Time Modeling System)](https://utms.io/)
-A radically new approach to time, habit, and task modeling. Configured
-with programmable LISP entities, it tracks not just tasks but context,
-conditions, interruptions, and emergent patterns. Designed to augment
-human agency over time. The core is written in Python, the
-configuration in Hy (LISP on Python), frontend in React + vite +
-TypeScript.
+
+A radically new framework for modeling time, habits, and tasks. Unlike
+conventional productivity apps, UTMS is programmable: built on a LISP
+(Hy) configuration layer, it models not just events but also context,
+conditions, interruptions, and emergent patterns. The goal: augment
+human agency over time through a composable, event-driven temporal
+system.
+
+UTMS is an ecosystem of interoperating components:
+
+- **Frontend (React + Vite + TypeScript)** — [utms-frontend](https://github.com/danielonsecurity/utms-frontend)  
+  Interactive web UI for visualizing and editing time entities.
+
+- **Core Backend (Python + Hy)** — [utms-core](https://github.com/danielonsecurity/utms-core)  
+  Core engine, including programmable entities, CLI, agent/heartbeat, Arduino server, and evaluation system.
+
+- **Mobile Companion (Kotlin, Android)** — [utms-android](https://github.com/danielonsecurity/utms-android)  
+  Native Android client for notifications, tracking, and mobile integration.
+
+- **Hardware Integration (Arduino, C++)** — [utms-arduino](https://github.com/danielonsecurity/utms-arduino)  
+  Firmware for IoT/embedded interactions (sensors, clocks, physical anchors).
+
+Additional tooling:
+
+- **Glowbot (Python)** — [glowbot](https://github.com/danielonsecurity/glowbot)  
+  Smart-bulb automation library integrated into the UTMS environment.
+
+⚑ Several private components and experimental modules are in development but not yet public.
+
 
 
 ### [OWASP Raider](https://github.com/OWASP/raider)
